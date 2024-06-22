@@ -64,49 +64,42 @@ const pokemonData = {
 };
 
 async function replaceUrls(pokemonData) {
-    pokemonData.results = await Promise.all(pokemonData.results.map(async (pokemon) => {
-      const response = await axios.get(pokemon.url);
-      return { name: pokemon.name, ...response.data };
-    }));
-    return pokemonData;
-  }
+  pokemonData.results = await Promise.all(pokemonData.results.map(async (pokemon) => {
+    const response = await axios.get(pokemon.url);
+    return { name: pokemon.name, ...response.data };
+  }));
+  return pokemonData;
+}
 
-  replaceUrls(pokemonData).then((result) => {
-    console.log("result", result);
-    console.log("result results", result.results);
-    const processedData = result.results.map((pokemon) => {
-        return {
-          name: pokemon.name,
-          abilities: pokemon.abilities.map((abilityElement)=> ({
-            name: abilityElement.ability.name,
-            is_hidden: abilityElement.is_hidden,
-            id: parseInt(abilityElement.ability.url.match(/\/(\d+\/)$/)[1], 10),
-          })),
-          height: pokemon.height,
-          id: pokemon.id,
-          moves: pokemon.moves.map((moveElement) => ({
-            name: moveElement.move.name,
-            id: parseInt(moveElement.move.url.match(/\/(\d+\/)$/)[1], 10),
-          })),
-          official_art: pokemon.sprites.other['official-artwork']['front_default'],
-          showdown_gif: pokemon.sprites.other['showdown']['front_default'],
-          // stats: pokemon.stats,
-          stats: pokemon.stats.map((statElement) =>({
-            name: statElement.stat.name,
-            id: parseInt(statElement.stat.url.match(/\/(\d+\/)$/)[1], 10),
-            value: statElement.base_stat,
-          })),
-          // types: pokemon.types,
-          types: pokemon.types.map((typeElement) =>({
-            name: typeElement.type.name,
-            id: parseInt(typeElement.type.url.match(/\/(\d+\/)$/)[1], 10),
-          })),
-          weight: pokemon.weight
-        };
-      });
-
-      console.log("transformedData", processedData);
-    fs.writeFileSync('processedPokemonData.json', JSON.stringify(processedData,null, 2));
-    console.log('Processed data written to processedPokemonData.json');
+replaceUrls(pokemonData).then((result) => {
+  const processedData = result.results.map((pokemon) => {
+    return {
+      name: pokemon.name,
+      abilities: pokemon.abilities.map((abilityElement) => ({
+        name: abilityElement.ability.name,
+        is_hidden: abilityElement.is_hidden,
+        id: parseInt(abilityElement.ability.url.match(/\/(\d+\/)$/)[1], 10),
+      })),
+      height: pokemon.height,
+      id: pokemon.id,
+      moves: pokemon.moves.map((moveElement) => ({
+        name: moveElement.move.name,
+        id: parseInt(moveElement.move.url.match(/\/(\d+\/)$/)[1], 10),
+      })),
+      official_art: pokemon.sprites.other['official-artwork']['front_default'],
+      showdown_gif: pokemon.sprites.other['showdown']['front_default'],
+      stats: pokemon.stats.map((statElement) => ({
+        name: statElement.stat.name,
+        id: parseInt(statElement.stat.url.match(/\/(\d+\/)$/)[1], 10),
+        value: statElement.base_stat,
+      })),
+      types: pokemon.types.map((typeElement) => ({
+        name: typeElement.type.name,
+        id: parseInt(typeElement.type.url.match(/\/(\d+\/)$/)[1], 10),
+      })),
+      weight: pokemon.weight
+    };
   });
-  
+  fs.writeFileSync('processedPokemonData.json', JSON.stringify(processedData, null, 2));
+  console.log('Processed data written to processedPokemonData.json');
+});
