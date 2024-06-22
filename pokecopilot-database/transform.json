@@ -18,347 +18,347 @@
     "moves": [
       {
         "name": "razor-wind",
-        "url": "https://pokeapi.co/api/v2/move/13/"
+        "id": 13
       },
       {
         "name": "swords-dance",
-        "url": "https://pokeapi.co/api/v2/move/14/"
+        "id": 14
       },
       {
         "name": "cut",
-        "url": "https://pokeapi.co/api/v2/move/15/"
+        "id": 15
       },
       {
         "name": "bind",
-        "url": "https://pokeapi.co/api/v2/move/20/"
+        "id": 20
       },
       {
         "name": "vine-whip",
-        "url": "https://pokeapi.co/api/v2/move/22/"
+        "id": 22
       },
       {
         "name": "headbutt",
-        "url": "https://pokeapi.co/api/v2/move/29/"
+        "id": 29
       },
       {
         "name": "tackle",
-        "url": "https://pokeapi.co/api/v2/move/33/"
+        "id": 33
       },
       {
         "name": "body-slam",
-        "url": "https://pokeapi.co/api/v2/move/34/"
+        "id": 34
       },
       {
         "name": "take-down",
-        "url": "https://pokeapi.co/api/v2/move/36/"
+        "id": 36
       },
       {
         "name": "double-edge",
-        "url": "https://pokeapi.co/api/v2/move/38/"
+        "id": 38
       },
       {
         "name": "growl",
-        "url": "https://pokeapi.co/api/v2/move/45/"
+        "id": 45
       },
       {
         "name": "strength",
-        "url": "https://pokeapi.co/api/v2/move/70/"
+        "id": 70
       },
       {
         "name": "mega-drain",
-        "url": "https://pokeapi.co/api/v2/move/72/"
+        "id": 72
       },
       {
         "name": "leech-seed",
-        "url": "https://pokeapi.co/api/v2/move/73/"
+        "id": 73
       },
       {
         "name": "growth",
-        "url": "https://pokeapi.co/api/v2/move/74/"
+        "id": 74
       },
       {
         "name": "razor-leaf",
-        "url": "https://pokeapi.co/api/v2/move/75/"
+        "id": 75
       },
       {
         "name": "solar-beam",
-        "url": "https://pokeapi.co/api/v2/move/76/"
+        "id": 76
       },
       {
         "name": "poison-powder",
-        "url": "https://pokeapi.co/api/v2/move/77/"
+        "id": 77
       },
       {
         "name": "sleep-powder",
-        "url": "https://pokeapi.co/api/v2/move/79/"
+        "id": 79
       },
       {
         "name": "petal-dance",
-        "url": "https://pokeapi.co/api/v2/move/80/"
+        "id": 80
       },
       {
         "name": "string-shot",
-        "url": "https://pokeapi.co/api/v2/move/81/"
+        "id": 81
       },
       {
         "name": "toxic",
-        "url": "https://pokeapi.co/api/v2/move/92/"
+        "id": 92
       },
       {
         "name": "rage",
-        "url": "https://pokeapi.co/api/v2/move/99/"
+        "id": 99
       },
       {
         "name": "mimic",
-        "url": "https://pokeapi.co/api/v2/move/102/"
+        "id": 102
       },
       {
         "name": "double-team",
-        "url": "https://pokeapi.co/api/v2/move/104/"
+        "id": 104
       },
       {
         "name": "defense-curl",
-        "url": "https://pokeapi.co/api/v2/move/111/"
+        "id": 111
       },
       {
         "name": "light-screen",
-        "url": "https://pokeapi.co/api/v2/move/113/"
+        "id": 113
       },
       {
         "name": "reflect",
-        "url": "https://pokeapi.co/api/v2/move/115/"
+        "id": 115
       },
       {
         "name": "bide",
-        "url": "https://pokeapi.co/api/v2/move/117/"
+        "id": 117
       },
       {
         "name": "sludge",
-        "url": "https://pokeapi.co/api/v2/move/124/"
+        "id": 124
       },
       {
         "name": "skull-bash",
-        "url": "https://pokeapi.co/api/v2/move/130/"
+        "id": 130
       },
       {
         "name": "amnesia",
-        "url": "https://pokeapi.co/api/v2/move/133/"
+        "id": 133
       },
       {
         "name": "flash",
-        "url": "https://pokeapi.co/api/v2/move/148/"
+        "id": 148
       },
       {
         "name": "rest",
-        "url": "https://pokeapi.co/api/v2/move/156/"
+        "id": 156
       },
       {
         "name": "substitute",
-        "url": "https://pokeapi.co/api/v2/move/164/"
+        "id": 164
       },
       {
         "name": "snore",
-        "url": "https://pokeapi.co/api/v2/move/173/"
+        "id": 173
       },
       {
         "name": "curse",
-        "url": "https://pokeapi.co/api/v2/move/174/"
+        "id": 174
       },
       {
         "name": "protect",
-        "url": "https://pokeapi.co/api/v2/move/182/"
+        "id": 182
       },
       {
         "name": "sludge-bomb",
-        "url": "https://pokeapi.co/api/v2/move/188/"
+        "id": 188
       },
       {
         "name": "mud-slap",
-        "url": "https://pokeapi.co/api/v2/move/189/"
+        "id": 189
       },
       {
         "name": "outrage",
-        "url": "https://pokeapi.co/api/v2/move/200/"
+        "id": 200
       },
       {
         "name": "giga-drain",
-        "url": "https://pokeapi.co/api/v2/move/202/"
+        "id": 202
       },
       {
         "name": "endure",
-        "url": "https://pokeapi.co/api/v2/move/203/"
+        "id": 203
       },
       {
         "name": "charm",
-        "url": "https://pokeapi.co/api/v2/move/204/"
+        "id": 204
       },
       {
         "name": "false-swipe",
-        "url": "https://pokeapi.co/api/v2/move/206/"
+        "id": 206
       },
       {
         "name": "swagger",
-        "url": "https://pokeapi.co/api/v2/move/207/"
+        "id": 207
       },
       {
         "name": "fury-cutter",
-        "url": "https://pokeapi.co/api/v2/move/210/"
+        "id": 210
       },
       {
         "name": "attract",
-        "url": "https://pokeapi.co/api/v2/move/213/"
+        "id": 213
       },
       {
         "name": "sleep-talk",
-        "url": "https://pokeapi.co/api/v2/move/214/"
+        "id": 214
       },
       {
         "name": "return",
-        "url": "https://pokeapi.co/api/v2/move/216/"
+        "id": 216
       },
       {
         "name": "frustration",
-        "url": "https://pokeapi.co/api/v2/move/218/"
+        "id": 218
       },
       {
         "name": "safeguard",
-        "url": "https://pokeapi.co/api/v2/move/219/"
+        "id": 219
       },
       {
         "name": "sweet-scent",
-        "url": "https://pokeapi.co/api/v2/move/230/"
+        "id": 230
       },
       {
         "name": "synthesis",
-        "url": "https://pokeapi.co/api/v2/move/235/"
+        "id": 235
       },
       {
         "name": "hidden-power",
-        "url": "https://pokeapi.co/api/v2/move/237/"
+        "id": 237
       },
       {
         "name": "sunny-day",
-        "url": "https://pokeapi.co/api/v2/move/241/"
+        "id": 241
       },
       {
         "name": "rock-smash",
-        "url": "https://pokeapi.co/api/v2/move/249/"
+        "id": 249
       },
       {
         "name": "facade",
-        "url": "https://pokeapi.co/api/v2/move/263/"
+        "id": 263
       },
       {
         "name": "nature-power",
-        "url": "https://pokeapi.co/api/v2/move/267/"
+        "id": 267
       },
       {
         "name": "helping-hand",
-        "url": "https://pokeapi.co/api/v2/move/270/"
+        "id": 270
       },
       {
         "name": "ingrain",
-        "url": "https://pokeapi.co/api/v2/move/275/"
+        "id": 275
       },
       {
         "name": "knock-off",
-        "url": "https://pokeapi.co/api/v2/move/282/"
+        "id": 282
       },
       {
         "name": "secret-power",
-        "url": "https://pokeapi.co/api/v2/move/290/"
+        "id": 290
       },
       {
         "name": "weather-ball",
-        "url": "https://pokeapi.co/api/v2/move/311/"
+        "id": 311
       },
       {
         "name": "grass-whistle",
-        "url": "https://pokeapi.co/api/v2/move/320/"
+        "id": 320
       },
       {
         "name": "bullet-seed",
-        "url": "https://pokeapi.co/api/v2/move/331/"
+        "id": 331
       },
       {
         "name": "magical-leaf",
-        "url": "https://pokeapi.co/api/v2/move/345/"
+        "id": 345
       },
       {
         "name": "natural-gift",
-        "url": "https://pokeapi.co/api/v2/move/363/"
+        "id": 363
       },
       {
         "name": "worry-seed",
-        "url": "https://pokeapi.co/api/v2/move/388/"
+        "id": 388
       },
       {
         "name": "seed-bomb",
-        "url": "https://pokeapi.co/api/v2/move/402/"
+        "id": 402
       },
       {
         "name": "energy-ball",
-        "url": "https://pokeapi.co/api/v2/move/412/"
+        "id": 412
       },
       {
         "name": "leaf-storm",
-        "url": "https://pokeapi.co/api/v2/move/437/"
+        "id": 437
       },
       {
         "name": "power-whip",
-        "url": "https://pokeapi.co/api/v2/move/438/"
+        "id": 438
       },
       {
         "name": "captivate",
-        "url": "https://pokeapi.co/api/v2/move/445/"
+        "id": 445
       },
       {
         "name": "grass-knot",
-        "url": "https://pokeapi.co/api/v2/move/447/"
+        "id": 447
       },
       {
         "name": "venoshock",
-        "url": "https://pokeapi.co/api/v2/move/474/"
+        "id": 474
       },
       {
         "name": "acid-spray",
-        "url": "https://pokeapi.co/api/v2/move/491/"
+        "id": 491
       },
       {
         "name": "round",
-        "url": "https://pokeapi.co/api/v2/move/496/"
+        "id": 496
       },
       {
         "name": "echoed-voice",
-        "url": "https://pokeapi.co/api/v2/move/497/"
+        "id": 497
       },
       {
         "name": "grass-pledge",
-        "url": "https://pokeapi.co/api/v2/move/520/"
+        "id": 520
       },
       {
         "name": "work-up",
-        "url": "https://pokeapi.co/api/v2/move/526/"
+        "id": 526
       },
       {
         "name": "grassy-terrain",
-        "url": "https://pokeapi.co/api/v2/move/580/"
+        "id": 580
       },
       {
         "name": "confide",
-        "url": "https://pokeapi.co/api/v2/move/590/"
+        "id": 590
       },
       {
         "name": "grassy-glide",
-        "url": "https://pokeapi.co/api/v2/move/803/"
+        "id": 803
       },
       {
         "name": "tera-blast",
-        "url": "https://pokeapi.co/api/v2/move/851/"
+        "id": 851
       },
       {
         "name": "trailblaze",
-        "url": "https://pokeapi.co/api/v2/move/885/"
+        "id": 885
       }
     ],
     "official_art": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
@@ -450,335 +450,335 @@
     "moves": [
       {
         "name": "swords-dance",
-        "url": "https://pokeapi.co/api/v2/move/14/"
+        "id": 14
       },
       {
         "name": "cut",
-        "url": "https://pokeapi.co/api/v2/move/15/"
+        "id": 15
       },
       {
         "name": "bind",
-        "url": "https://pokeapi.co/api/v2/move/20/"
+        "id": 20
       },
       {
         "name": "vine-whip",
-        "url": "https://pokeapi.co/api/v2/move/22/"
+        "id": 22
       },
       {
         "name": "headbutt",
-        "url": "https://pokeapi.co/api/v2/move/29/"
+        "id": 29
       },
       {
         "name": "tackle",
-        "url": "https://pokeapi.co/api/v2/move/33/"
+        "id": 33
       },
       {
         "name": "body-slam",
-        "url": "https://pokeapi.co/api/v2/move/34/"
+        "id": 34
       },
       {
         "name": "take-down",
-        "url": "https://pokeapi.co/api/v2/move/36/"
+        "id": 36
       },
       {
         "name": "double-edge",
-        "url": "https://pokeapi.co/api/v2/move/38/"
+        "id": 38
       },
       {
         "name": "growl",
-        "url": "https://pokeapi.co/api/v2/move/45/"
+        "id": 45
       },
       {
         "name": "roar",
-        "url": "https://pokeapi.co/api/v2/move/46/"
+        "id": 46
       },
       {
         "name": "strength",
-        "url": "https://pokeapi.co/api/v2/move/70/"
+        "id": 70
       },
       {
         "name": "mega-drain",
-        "url": "https://pokeapi.co/api/v2/move/72/"
+        "id": 72
       },
       {
         "name": "leech-seed",
-        "url": "https://pokeapi.co/api/v2/move/73/"
+        "id": 73
       },
       {
         "name": "growth",
-        "url": "https://pokeapi.co/api/v2/move/74/"
+        "id": 74
       },
       {
         "name": "razor-leaf",
-        "url": "https://pokeapi.co/api/v2/move/75/"
+        "id": 75
       },
       {
         "name": "solar-beam",
-        "url": "https://pokeapi.co/api/v2/move/76/"
+        "id": 76
       },
       {
         "name": "poison-powder",
-        "url": "https://pokeapi.co/api/v2/move/77/"
+        "id": 77
       },
       {
         "name": "sleep-powder",
-        "url": "https://pokeapi.co/api/v2/move/79/"
+        "id": 79
       },
       {
         "name": "petal-dance",
-        "url": "https://pokeapi.co/api/v2/move/80/"
+        "id": 80
       },
       {
         "name": "string-shot",
-        "url": "https://pokeapi.co/api/v2/move/81/"
+        "id": 81
       },
       {
         "name": "toxic",
-        "url": "https://pokeapi.co/api/v2/move/92/"
+        "id": 92
       },
       {
         "name": "rage",
-        "url": "https://pokeapi.co/api/v2/move/99/"
+        "id": 99
       },
       {
         "name": "mimic",
-        "url": "https://pokeapi.co/api/v2/move/102/"
+        "id": 102
       },
       {
         "name": "double-team",
-        "url": "https://pokeapi.co/api/v2/move/104/"
+        "id": 104
       },
       {
         "name": "defense-curl",
-        "url": "https://pokeapi.co/api/v2/move/111/"
+        "id": 111
       },
       {
         "name": "light-screen",
-        "url": "https://pokeapi.co/api/v2/move/113/"
+        "id": 113
       },
       {
         "name": "reflect",
-        "url": "https://pokeapi.co/api/v2/move/115/"
+        "id": 115
       },
       {
         "name": "bide",
-        "url": "https://pokeapi.co/api/v2/move/117/"
+        "id": 117
       },
       {
         "name": "amnesia",
-        "url": "https://pokeapi.co/api/v2/move/133/"
+        "id": 133
       },
       {
         "name": "flash",
-        "url": "https://pokeapi.co/api/v2/move/148/"
+        "id": 148
       },
       {
         "name": "rest",
-        "url": "https://pokeapi.co/api/v2/move/156/"
+        "id": 156
       },
       {
         "name": "substitute",
-        "url": "https://pokeapi.co/api/v2/move/164/"
+        "id": 164
       },
       {
         "name": "snore",
-        "url": "https://pokeapi.co/api/v2/move/173/"
+        "id": 173
       },
       {
         "name": "curse",
-        "url": "https://pokeapi.co/api/v2/move/174/"
+        "id": 174
       },
       {
         "name": "protect",
-        "url": "https://pokeapi.co/api/v2/move/182/"
+        "id": 182
       },
       {
         "name": "sludge-bomb",
-        "url": "https://pokeapi.co/api/v2/move/188/"
+        "id": 188
       },
       {
         "name": "mud-slap",
-        "url": "https://pokeapi.co/api/v2/move/189/"
+        "id": 189
       },
       {
         "name": "outrage",
-        "url": "https://pokeapi.co/api/v2/move/200/"
+        "id": 200
       },
       {
         "name": "giga-drain",
-        "url": "https://pokeapi.co/api/v2/move/202/"
+        "id": 202
       },
       {
         "name": "endure",
-        "url": "https://pokeapi.co/api/v2/move/203/"
+        "id": 203
       },
       {
         "name": "charm",
-        "url": "https://pokeapi.co/api/v2/move/204/"
+        "id": 204
       },
       {
         "name": "false-swipe",
-        "url": "https://pokeapi.co/api/v2/move/206/"
+        "id": 206
       },
       {
         "name": "swagger",
-        "url": "https://pokeapi.co/api/v2/move/207/"
+        "id": 207
       },
       {
         "name": "fury-cutter",
-        "url": "https://pokeapi.co/api/v2/move/210/"
+        "id": 210
       },
       {
         "name": "attract",
-        "url": "https://pokeapi.co/api/v2/move/213/"
+        "id": 213
       },
       {
         "name": "sleep-talk",
-        "url": "https://pokeapi.co/api/v2/move/214/"
+        "id": 214
       },
       {
         "name": "return",
-        "url": "https://pokeapi.co/api/v2/move/216/"
+        "id": 216
       },
       {
         "name": "frustration",
-        "url": "https://pokeapi.co/api/v2/move/218/"
+        "id": 218
       },
       {
         "name": "safeguard",
-        "url": "https://pokeapi.co/api/v2/move/219/"
+        "id": 219
       },
       {
         "name": "sweet-scent",
-        "url": "https://pokeapi.co/api/v2/move/230/"
+        "id": 230
       },
       {
         "name": "synthesis",
-        "url": "https://pokeapi.co/api/v2/move/235/"
+        "id": 235
       },
       {
         "name": "hidden-power",
-        "url": "https://pokeapi.co/api/v2/move/237/"
+        "id": 237
       },
       {
         "name": "sunny-day",
-        "url": "https://pokeapi.co/api/v2/move/241/"
+        "id": 241
       },
       {
         "name": "rock-smash",
-        "url": "https://pokeapi.co/api/v2/move/249/"
+        "id": 249
       },
       {
         "name": "facade",
-        "url": "https://pokeapi.co/api/v2/move/263/"
+        "id": 263
       },
       {
         "name": "nature-power",
-        "url": "https://pokeapi.co/api/v2/move/267/"
+        "id": 267
       },
       {
         "name": "helping-hand",
-        "url": "https://pokeapi.co/api/v2/move/270/"
+        "id": 270
       },
       {
         "name": "ingrain",
-        "url": "https://pokeapi.co/api/v2/move/275/"
+        "id": 275
       },
       {
         "name": "knock-off",
-        "url": "https://pokeapi.co/api/v2/move/282/"
+        "id": 282
       },
       {
         "name": "secret-power",
-        "url": "https://pokeapi.co/api/v2/move/290/"
+        "id": 290
       },
       {
         "name": "weather-ball",
-        "url": "https://pokeapi.co/api/v2/move/311/"
+        "id": 311
       },
       {
         "name": "bullet-seed",
-        "url": "https://pokeapi.co/api/v2/move/331/"
+        "id": 331
       },
       {
         "name": "magical-leaf",
-        "url": "https://pokeapi.co/api/v2/move/345/"
+        "id": 345
       },
       {
         "name": "natural-gift",
-        "url": "https://pokeapi.co/api/v2/move/363/"
+        "id": 363
       },
       {
         "name": "worry-seed",
-        "url": "https://pokeapi.co/api/v2/move/388/"
+        "id": 388
       },
       {
         "name": "seed-bomb",
-        "url": "https://pokeapi.co/api/v2/move/402/"
+        "id": 402
       },
       {
         "name": "energy-ball",
-        "url": "https://pokeapi.co/api/v2/move/412/"
+        "id": 412
       },
       {
         "name": "leaf-storm",
-        "url": "https://pokeapi.co/api/v2/move/437/"
+        "id": 437
       },
       {
         "name": "power-whip",
-        "url": "https://pokeapi.co/api/v2/move/438/"
+        "id": 438
       },
       {
         "name": "captivate",
-        "url": "https://pokeapi.co/api/v2/move/445/"
+        "id": 445
       },
       {
         "name": "grass-knot",
-        "url": "https://pokeapi.co/api/v2/move/447/"
+        "id": 447
       },
       {
         "name": "venoshock",
-        "url": "https://pokeapi.co/api/v2/move/474/"
+        "id": 474
       },
       {
         "name": "acid-spray",
-        "url": "https://pokeapi.co/api/v2/move/491/"
+        "id": 491
       },
       {
         "name": "round",
-        "url": "https://pokeapi.co/api/v2/move/496/"
+        "id": 496
       },
       {
         "name": "echoed-voice",
-        "url": "https://pokeapi.co/api/v2/move/497/"
+        "id": 497
       },
       {
         "name": "grass-pledge",
-        "url": "https://pokeapi.co/api/v2/move/520/"
+        "id": 520
       },
       {
         "name": "work-up",
-        "url": "https://pokeapi.co/api/v2/move/526/"
+        "id": 526
       },
       {
         "name": "grassy-terrain",
-        "url": "https://pokeapi.co/api/v2/move/580/"
+        "id": 580
       },
       {
         "name": "confide",
-        "url": "https://pokeapi.co/api/v2/move/590/"
+        "id": 590
       },
       {
         "name": "grassy-glide",
-        "url": "https://pokeapi.co/api/v2/move/803/"
+        "id": 803
       },
       {
         "name": "tera-blast",
-        "url": "https://pokeapi.co/api/v2/move/851/"
+        "id": 851
       },
       {
         "name": "trailblaze",
-        "url": "https://pokeapi.co/api/v2/move/885/"
+        "id": 885
       }
     ],
     "official_art": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
@@ -870,387 +870,387 @@
     "moves": [
       {
         "name": "swords-dance",
-        "url": "https://pokeapi.co/api/v2/move/14/"
+        "id": 14
       },
       {
         "name": "cut",
-        "url": "https://pokeapi.co/api/v2/move/15/"
+        "id": 15
       },
       {
         "name": "bind",
-        "url": "https://pokeapi.co/api/v2/move/20/"
+        "id": 20
       },
       {
         "name": "vine-whip",
-        "url": "https://pokeapi.co/api/v2/move/22/"
+        "id": 22
       },
       {
         "name": "headbutt",
-        "url": "https://pokeapi.co/api/v2/move/29/"
+        "id": 29
       },
       {
         "name": "tackle",
-        "url": "https://pokeapi.co/api/v2/move/33/"
+        "id": 33
       },
       {
         "name": "body-slam",
-        "url": "https://pokeapi.co/api/v2/move/34/"
+        "id": 34
       },
       {
         "name": "take-down",
-        "url": "https://pokeapi.co/api/v2/move/36/"
+        "id": 36
       },
       {
         "name": "double-edge",
-        "url": "https://pokeapi.co/api/v2/move/38/"
+        "id": 38
       },
       {
         "name": "growl",
-        "url": "https://pokeapi.co/api/v2/move/45/"
+        "id": 45
       },
       {
         "name": "roar",
-        "url": "https://pokeapi.co/api/v2/move/46/"
+        "id": 46
       },
       {
         "name": "hyper-beam",
-        "url": "https://pokeapi.co/api/v2/move/63/"
+        "id": 63
       },
       {
         "name": "strength",
-        "url": "https://pokeapi.co/api/v2/move/70/"
+        "id": 70
       },
       {
         "name": "mega-drain",
-        "url": "https://pokeapi.co/api/v2/move/72/"
+        "id": 72
       },
       {
         "name": "leech-seed",
-        "url": "https://pokeapi.co/api/v2/move/73/"
+        "id": 73
       },
       {
         "name": "growth",
-        "url": "https://pokeapi.co/api/v2/move/74/"
+        "id": 74
       },
       {
         "name": "razor-leaf",
-        "url": "https://pokeapi.co/api/v2/move/75/"
+        "id": 75
       },
       {
         "name": "solar-beam",
-        "url": "https://pokeapi.co/api/v2/move/76/"
+        "id": 76
       },
       {
         "name": "poison-powder",
-        "url": "https://pokeapi.co/api/v2/move/77/"
+        "id": 77
       },
       {
         "name": "sleep-powder",
-        "url": "https://pokeapi.co/api/v2/move/79/"
+        "id": 79
       },
       {
         "name": "petal-dance",
-        "url": "https://pokeapi.co/api/v2/move/80/"
+        "id": 80
       },
       {
         "name": "string-shot",
-        "url": "https://pokeapi.co/api/v2/move/81/"
+        "id": 81
       },
       {
         "name": "earthquake",
-        "url": "https://pokeapi.co/api/v2/move/89/"
+        "id": 89
       },
       {
         "name": "toxic",
-        "url": "https://pokeapi.co/api/v2/move/92/"
+        "id": 92
       },
       {
         "name": "rage",
-        "url": "https://pokeapi.co/api/v2/move/99/"
+        "id": 99
       },
       {
         "name": "mimic",
-        "url": "https://pokeapi.co/api/v2/move/102/"
+        "id": 102
       },
       {
         "name": "double-team",
-        "url": "https://pokeapi.co/api/v2/move/104/"
+        "id": 104
       },
       {
         "name": "defense-curl",
-        "url": "https://pokeapi.co/api/v2/move/111/"
+        "id": 111
       },
       {
         "name": "light-screen",
-        "url": "https://pokeapi.co/api/v2/move/113/"
+        "id": 113
       },
       {
         "name": "reflect",
-        "url": "https://pokeapi.co/api/v2/move/115/"
+        "id": 115
       },
       {
         "name": "bide",
-        "url": "https://pokeapi.co/api/v2/move/117/"
+        "id": 117
       },
       {
         "name": "amnesia",
-        "url": "https://pokeapi.co/api/v2/move/133/"
+        "id": 133
       },
       {
         "name": "flash",
-        "url": "https://pokeapi.co/api/v2/move/148/"
+        "id": 148
       },
       {
         "name": "rest",
-        "url": "https://pokeapi.co/api/v2/move/156/"
+        "id": 156
       },
       {
         "name": "substitute",
-        "url": "https://pokeapi.co/api/v2/move/164/"
+        "id": 164
       },
       {
         "name": "snore",
-        "url": "https://pokeapi.co/api/v2/move/173/"
+        "id": 173
       },
       {
         "name": "curse",
-        "url": "https://pokeapi.co/api/v2/move/174/"
+        "id": 174
       },
       {
         "name": "protect",
-        "url": "https://pokeapi.co/api/v2/move/182/"
+        "id": 182
       },
       {
         "name": "scary-face",
-        "url": "https://pokeapi.co/api/v2/move/184/"
+        "id": 184
       },
       {
         "name": "sludge-bomb",
-        "url": "https://pokeapi.co/api/v2/move/188/"
+        "id": 188
       },
       {
         "name": "mud-slap",
-        "url": "https://pokeapi.co/api/v2/move/189/"
+        "id": 189
       },
       {
         "name": "outrage",
-        "url": "https://pokeapi.co/api/v2/move/200/"
+        "id": 200
       },
       {
         "name": "giga-drain",
-        "url": "https://pokeapi.co/api/v2/move/202/"
+        "id": 202
       },
       {
         "name": "endure",
-        "url": "https://pokeapi.co/api/v2/move/203/"
+        "id": 203
       },
       {
         "name": "charm",
-        "url": "https://pokeapi.co/api/v2/move/204/"
+        "id": 204
       },
       {
         "name": "false-swipe",
-        "url": "https://pokeapi.co/api/v2/move/206/"
+        "id": 206
       },
       {
         "name": "swagger",
-        "url": "https://pokeapi.co/api/v2/move/207/"
+        "id": 207
       },
       {
         "name": "fury-cutter",
-        "url": "https://pokeapi.co/api/v2/move/210/"
+        "id": 210
       },
       {
         "name": "attract",
-        "url": "https://pokeapi.co/api/v2/move/213/"
+        "id": 213
       },
       {
         "name": "sleep-talk",
-        "url": "https://pokeapi.co/api/v2/move/214/"
+        "id": 214
       },
       {
         "name": "return",
-        "url": "https://pokeapi.co/api/v2/move/216/"
+        "id": 216
       },
       {
         "name": "frustration",
-        "url": "https://pokeapi.co/api/v2/move/218/"
+        "id": 218
       },
       {
         "name": "safeguard",
-        "url": "https://pokeapi.co/api/v2/move/219/"
+        "id": 219
       },
       {
         "name": "sweet-scent",
-        "url": "https://pokeapi.co/api/v2/move/230/"
+        "id": 230
       },
       {
         "name": "synthesis",
-        "url": "https://pokeapi.co/api/v2/move/235/"
+        "id": 235
       },
       {
         "name": "hidden-power",
-        "url": "https://pokeapi.co/api/v2/move/237/"
+        "id": 237
       },
       {
         "name": "sunny-day",
-        "url": "https://pokeapi.co/api/v2/move/241/"
+        "id": 241
       },
       {
         "name": "rock-smash",
-        "url": "https://pokeapi.co/api/v2/move/249/"
+        "id": 249
       },
       {
         "name": "facade",
-        "url": "https://pokeapi.co/api/v2/move/263/"
+        "id": 263
       },
       {
         "name": "nature-power",
-        "url": "https://pokeapi.co/api/v2/move/267/"
+        "id": 267
       },
       {
         "name": "helping-hand",
-        "url": "https://pokeapi.co/api/v2/move/270/"
+        "id": 270
       },
       {
         "name": "ingrain",
-        "url": "https://pokeapi.co/api/v2/move/275/"
+        "id": 275
       },
       {
         "name": "knock-off",
-        "url": "https://pokeapi.co/api/v2/move/282/"
+        "id": 282
       },
       {
         "name": "secret-power",
-        "url": "https://pokeapi.co/api/v2/move/290/"
+        "id": 290
       },
       {
         "name": "weather-ball",
-        "url": "https://pokeapi.co/api/v2/move/311/"
+        "id": 311
       },
       {
         "name": "bullet-seed",
-        "url": "https://pokeapi.co/api/v2/move/331/"
+        "id": 331
       },
       {
         "name": "block",
-        "url": "https://pokeapi.co/api/v2/move/335/"
+        "id": 335
       },
       {
         "name": "frenzy-plant",
-        "url": "https://pokeapi.co/api/v2/move/338/"
+        "id": 338
       },
       {
         "name": "magical-leaf",
-        "url": "https://pokeapi.co/api/v2/move/345/"
+        "id": 345
       },
       {
         "name": "natural-gift",
-        "url": "https://pokeapi.co/api/v2/move/363/"
+        "id": 363
       },
       {
         "name": "worry-seed",
-        "url": "https://pokeapi.co/api/v2/move/388/"
+        "id": 388
       },
       {
         "name": "poison-jab",
-        "url": "https://pokeapi.co/api/v2/move/398/"
+        "id": 398
       },
       {
         "name": "seed-bomb",
-        "url": "https://pokeapi.co/api/v2/move/402/"
+        "id": 402
       },
       {
         "name": "energy-ball",
-        "url": "https://pokeapi.co/api/v2/move/412/"
+        "id": 412
       },
       {
         "name": "earth-power",
-        "url": "https://pokeapi.co/api/v2/move/414/"
+        "id": 414
       },
       {
         "name": "giga-impact",
-        "url": "https://pokeapi.co/api/v2/move/416/"
+        "id": 416
       },
       {
         "name": "rock-climb",
-        "url": "https://pokeapi.co/api/v2/move/431/"
+        "id": 431
       },
       {
         "name": "leaf-storm",
-        "url": "https://pokeapi.co/api/v2/move/437/"
+        "id": 437
       },
       {
         "name": "power-whip",
-        "url": "https://pokeapi.co/api/v2/move/438/"
+        "id": 438
       },
       {
         "name": "captivate",
-        "url": "https://pokeapi.co/api/v2/move/445/"
+        "id": 445
       },
       {
         "name": "grass-knot",
-        "url": "https://pokeapi.co/api/v2/move/447/"
+        "id": 447
       },
       {
         "name": "venoshock",
-        "url": "https://pokeapi.co/api/v2/move/474/"
+        "id": 474
       },
       {
         "name": "acid-spray",
-        "url": "https://pokeapi.co/api/v2/move/491/"
+        "id": 491
       },
       {
         "name": "round",
-        "url": "https://pokeapi.co/api/v2/move/496/"
+        "id": 496
       },
       {
         "name": "echoed-voice",
-        "url": "https://pokeapi.co/api/v2/move/497/"
+        "id": 497
       },
       {
         "name": "grass-pledge",
-        "url": "https://pokeapi.co/api/v2/move/520/"
+        "id": 520
       },
       {
         "name": "bulldoze",
-        "url": "https://pokeapi.co/api/v2/move/523/"
+        "id": 523
       },
       {
         "name": "work-up",
-        "url": "https://pokeapi.co/api/v2/move/526/"
+        "id": 526
       },
       {
         "name": "petal-blizzard",
-        "url": "https://pokeapi.co/api/v2/move/572/"
+        "id": 572
       },
       {
         "name": "grassy-terrain",
-        "url": "https://pokeapi.co/api/v2/move/580/"
+        "id": 580
       },
       {
         "name": "confide",
-        "url": "https://pokeapi.co/api/v2/move/590/"
+        "id": 590
       },
       {
         "name": "stomping-tantrum",
-        "url": "https://pokeapi.co/api/v2/move/707/"
+        "id": 707
       },
       {
         "name": "grassy-glide",
-        "url": "https://pokeapi.co/api/v2/move/803/"
+        "id": 803
       },
       {
         "name": "terrain-pulse",
-        "url": "https://pokeapi.co/api/v2/move/805/"
+        "id": 805
       },
       {
         "name": "tera-blast",
-        "url": "https://pokeapi.co/api/v2/move/851/"
+        "id": 851
       },
       {
         "name": "trailblaze",
-        "url": "https://pokeapi.co/api/v2/move/885/"
+        "id": 885
       }
     ],
     "official_art": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
@@ -1342,423 +1342,423 @@
     "moves": [
       {
         "name": "mega-punch",
-        "url": "https://pokeapi.co/api/v2/move/5/"
+        "id": 5
       },
       {
         "name": "fire-punch",
-        "url": "https://pokeapi.co/api/v2/move/7/"
+        "id": 7
       },
       {
         "name": "thunder-punch",
-        "url": "https://pokeapi.co/api/v2/move/9/"
+        "id": 9
       },
       {
         "name": "scratch",
-        "url": "https://pokeapi.co/api/v2/move/10/"
+        "id": 10
       },
       {
         "name": "swords-dance",
-        "url": "https://pokeapi.co/api/v2/move/14/"
+        "id": 14
       },
       {
         "name": "cut",
-        "url": "https://pokeapi.co/api/v2/move/15/"
+        "id": 15
       },
       {
         "name": "wing-attack",
-        "url": "https://pokeapi.co/api/v2/move/17/"
+        "id": 17
       },
       {
         "name": "mega-kick",
-        "url": "https://pokeapi.co/api/v2/move/25/"
+        "id": 25
       },
       {
         "name": "headbutt",
-        "url": "https://pokeapi.co/api/v2/move/29/"
+        "id": 29
       },
       {
         "name": "body-slam",
-        "url": "https://pokeapi.co/api/v2/move/34/"
+        "id": 34
       },
       {
         "name": "take-down",
-        "url": "https://pokeapi.co/api/v2/move/36/"
+        "id": 36
       },
       {
         "name": "double-edge",
-        "url": "https://pokeapi.co/api/v2/move/38/"
+        "id": 38
       },
       {
         "name": "leer",
-        "url": "https://pokeapi.co/api/v2/move/43/"
+        "id": 43
       },
       {
         "name": "bite",
-        "url": "https://pokeapi.co/api/v2/move/44/"
+        "id": 44
       },
       {
         "name": "growl",
-        "url": "https://pokeapi.co/api/v2/move/45/"
+        "id": 45
       },
       {
         "name": "roar",
-        "url": "https://pokeapi.co/api/v2/move/46/"
+        "id": 46
       },
       {
         "name": "ember",
-        "url": "https://pokeapi.co/api/v2/move/52/"
+        "id": 52
       },
       {
         "name": "flamethrower",
-        "url": "https://pokeapi.co/api/v2/move/53/"
+        "id": 53
       },
       {
         "name": "submission",
-        "url": "https://pokeapi.co/api/v2/move/66/"
+        "id": 66
       },
       {
         "name": "counter",
-        "url": "https://pokeapi.co/api/v2/move/68/"
+        "id": 68
       },
       {
         "name": "seismic-toss",
-        "url": "https://pokeapi.co/api/v2/move/69/"
+        "id": 69
       },
       {
         "name": "strength",
-        "url": "https://pokeapi.co/api/v2/move/70/"
+        "id": 70
       },
       {
         "name": "dragon-rage",
-        "url": "https://pokeapi.co/api/v2/move/82/"
+        "id": 82
       },
       {
         "name": "fire-spin",
-        "url": "https://pokeapi.co/api/v2/move/83/"
+        "id": 83
       },
       {
         "name": "dig",
-        "url": "https://pokeapi.co/api/v2/move/91/"
+        "id": 91
       },
       {
         "name": "toxic",
-        "url": "https://pokeapi.co/api/v2/move/92/"
+        "id": 92
       },
       {
         "name": "rage",
-        "url": "https://pokeapi.co/api/v2/move/99/"
+        "id": 99
       },
       {
         "name": "mimic",
-        "url": "https://pokeapi.co/api/v2/move/102/"
+        "id": 102
       },
       {
         "name": "double-team",
-        "url": "https://pokeapi.co/api/v2/move/104/"
+        "id": 104
       },
       {
         "name": "smokescreen",
-        "url": "https://pokeapi.co/api/v2/move/108/"
+        "id": 108
       },
       {
         "name": "defense-curl",
-        "url": "https://pokeapi.co/api/v2/move/111/"
+        "id": 111
       },
       {
         "name": "reflect",
-        "url": "https://pokeapi.co/api/v2/move/115/"
+        "id": 115
       },
       {
         "name": "bide",
-        "url": "https://pokeapi.co/api/v2/move/117/"
+        "id": 117
       },
       {
         "name": "fire-blast",
-        "url": "https://pokeapi.co/api/v2/move/126/"
+        "id": 126
       },
       {
         "name": "swift",
-        "url": "https://pokeapi.co/api/v2/move/129/"
+        "id": 129
       },
       {
         "name": "skull-bash",
-        "url": "https://pokeapi.co/api/v2/move/130/"
+        "id": 130
       },
       {
         "name": "fury-swipes",
-        "url": "https://pokeapi.co/api/v2/move/154/"
+        "id": 154
       },
       {
         "name": "rest",
-        "url": "https://pokeapi.co/api/v2/move/156/"
+        "id": 156
       },
       {
         "name": "rock-slide",
-        "url": "https://pokeapi.co/api/v2/move/157/"
+        "id": 157
       },
       {
         "name": "slash",
-        "url": "https://pokeapi.co/api/v2/move/163/"
+        "id": 163
       },
       {
         "name": "substitute",
-        "url": "https://pokeapi.co/api/v2/move/164/"
+        "id": 164
       },
       {
         "name": "snore",
-        "url": "https://pokeapi.co/api/v2/move/173/"
+        "id": 173
       },
       {
         "name": "curse",
-        "url": "https://pokeapi.co/api/v2/move/174/"
+        "id": 174
       },
       {
         "name": "protect",
-        "url": "https://pokeapi.co/api/v2/move/182/"
+        "id": 182
       },
       {
         "name": "scary-face",
-        "url": "https://pokeapi.co/api/v2/move/184/"
+        "id": 184
       },
       {
         "name": "belly-drum",
-        "url": "https://pokeapi.co/api/v2/move/187/"
+        "id": 187
       },
       {
         "name": "mud-slap",
-        "url": "https://pokeapi.co/api/v2/move/189/"
+        "id": 189
       },
       {
         "name": "outrage",
-        "url": "https://pokeapi.co/api/v2/move/200/"
+        "id": 200
       },
       {
         "name": "endure",
-        "url": "https://pokeapi.co/api/v2/move/203/"
+        "id": 203
       },
       {
         "name": "false-swipe",
-        "url": "https://pokeapi.co/api/v2/move/206/"
+        "id": 206
       },
       {
         "name": "swagger",
-        "url": "https://pokeapi.co/api/v2/move/207/"
+        "id": 207
       },
       {
         "name": "fury-cutter",
-        "url": "https://pokeapi.co/api/v2/move/210/"
+        "id": 210
       },
       {
         "name": "attract",
-        "url": "https://pokeapi.co/api/v2/move/213/"
+        "id": 213
       },
       {
         "name": "sleep-talk",
-        "url": "https://pokeapi.co/api/v2/move/214/"
+        "id": 214
       },
       {
         "name": "return",
-        "url": "https://pokeapi.co/api/v2/move/216/"
+        "id": 216
       },
       {
         "name": "frustration",
-        "url": "https://pokeapi.co/api/v2/move/218/"
+        "id": 218
       },
       {
         "name": "dynamic-punch",
-        "url": "https://pokeapi.co/api/v2/move/223/"
+        "id": 223
       },
       {
         "name": "dragon-breath",
-        "url": "https://pokeapi.co/api/v2/move/225/"
+        "id": 225
       },
       {
         "name": "iron-tail",
-        "url": "https://pokeapi.co/api/v2/move/231/"
+        "id": 231
       },
       {
         "name": "metal-claw",
-        "url": "https://pokeapi.co/api/v2/move/232/"
+        "id": 232
       },
       {
         "name": "hidden-power",
-        "url": "https://pokeapi.co/api/v2/move/237/"
+        "id": 237
       },
       {
         "name": "sunny-day",
-        "url": "https://pokeapi.co/api/v2/move/241/"
+        "id": 241
       },
       {
         "name": "crunch",
-        "url": "https://pokeapi.co/api/v2/move/242/"
+        "id": 242
       },
       {
         "name": "ancient-power",
-        "url": "https://pokeapi.co/api/v2/move/246/"
+        "id": 246
       },
       {
         "name": "rock-smash",
-        "url": "https://pokeapi.co/api/v2/move/249/"
+        "id": 249
       },
       {
         "name": "beat-up",
-        "url": "https://pokeapi.co/api/v2/move/251/"
+        "id": 251
       },
       {
         "name": "heat-wave",
-        "url": "https://pokeapi.co/api/v2/move/257/"
+        "id": 257
       },
       {
         "name": "will-o-wisp",
-        "url": "https://pokeapi.co/api/v2/move/261/"
+        "id": 261
       },
       {
         "name": "facade",
-        "url": "https://pokeapi.co/api/v2/move/263/"
+        "id": 263
       },
       {
         "name": "focus-punch",
-        "url": "https://pokeapi.co/api/v2/move/264/"
+        "id": 264
       },
       {
         "name": "helping-hand",
-        "url": "https://pokeapi.co/api/v2/move/270/"
+        "id": 270
       },
       {
         "name": "brick-break",
-        "url": "https://pokeapi.co/api/v2/move/280/"
+        "id": 280
       },
       {
         "name": "secret-power",
-        "url": "https://pokeapi.co/api/v2/move/290/"
+        "id": 290
       },
       {
         "name": "weather-ball",
-        "url": "https://pokeapi.co/api/v2/move/311/"
+        "id": 311
       },
       {
         "name": "air-cutter",
-        "url": "https://pokeapi.co/api/v2/move/314/"
+        "id": 314
       },
       {
         "name": "overheat",
-        "url": "https://pokeapi.co/api/v2/move/315/"
+        "id": 315
       },
       {
         "name": "rock-tomb",
-        "url": "https://pokeapi.co/api/v2/move/317/"
+        "id": 317
       },
       {
         "name": "aerial-ace",
-        "url": "https://pokeapi.co/api/v2/move/332/"
+        "id": 332
       },
       {
         "name": "dragon-claw",
-        "url": "https://pokeapi.co/api/v2/move/337/"
+        "id": 337
       },
       {
         "name": "dragon-dance",
-        "url": "https://pokeapi.co/api/v2/move/349/"
+        "id": 349
       },
       {
         "name": "natural-gift",
-        "url": "https://pokeapi.co/api/v2/move/363/"
+        "id": 363
       },
       {
         "name": "fling",
-        "url": "https://pokeapi.co/api/v2/move/374/"
+        "id": 374
       },
       {
         "name": "flare-blitz",
-        "url": "https://pokeapi.co/api/v2/move/394/"
+        "id": 394
       },
       {
         "name": "dragon-pulse",
-        "url": "https://pokeapi.co/api/v2/move/406/"
+        "id": 406
       },
       {
         "name": "dragon-rush",
-        "url": "https://pokeapi.co/api/v2/move/407/"
+        "id": 407
       },
       {
         "name": "focus-blast",
-        "url": "https://pokeapi.co/api/v2/move/411/"
+        "id": 411
       },
       {
         "name": "shadow-claw",
-        "url": "https://pokeapi.co/api/v2/move/421/"
+        "id": 421
       },
       {
         "name": "fire-fang",
-        "url": "https://pokeapi.co/api/v2/move/424/"
+        "id": 424
       },
       {
         "name": "captivate",
-        "url": "https://pokeapi.co/api/v2/move/445/"
+        "id": 445
       },
       {
         "name": "hone-claws",
-        "url": "https://pokeapi.co/api/v2/move/468/"
+        "id": 468
       },
       {
         "name": "flame-burst",
-        "url": "https://pokeapi.co/api/v2/move/481/"
+        "id": 481
       },
       {
         "name": "flame-charge",
-        "url": "https://pokeapi.co/api/v2/move/488/"
+        "id": 488
       },
       {
         "name": "round",
-        "url": "https://pokeapi.co/api/v2/move/496/"
+        "id": 496
       },
       {
         "name": "echoed-voice",
-        "url": "https://pokeapi.co/api/v2/move/497/"
+        "id": 497
       },
       {
         "name": "incinerate",
-        "url": "https://pokeapi.co/api/v2/move/510/"
+        "id": 510
       },
       {
         "name": "acrobatics",
-        "url": "https://pokeapi.co/api/v2/move/512/"
+        "id": 512
       },
       {
         "name": "inferno",
-        "url": "https://pokeapi.co/api/v2/move/517/"
+        "id": 517
       },
       {
         "name": "fire-pledge",
-        "url": "https://pokeapi.co/api/v2/move/519/"
+        "id": 519
       },
       {
         "name": "dragon-tail",
-        "url": "https://pokeapi.co/api/v2/move/525/"
+        "id": 525
       },
       {
         "name": "work-up",
-        "url": "https://pokeapi.co/api/v2/move/526/"
+        "id": 526
       },
       {
         "name": "confide",
-        "url": "https://pokeapi.co/api/v2/move/590/"
+        "id": 590
       },
       {
         "name": "power-up-punch",
-        "url": "https://pokeapi.co/api/v2/move/612/"
+        "id": 612
       },
       {
         "name": "breaking-swipe",
-        "url": "https://pokeapi.co/api/v2/move/784/"
+        "id": 784
       },
       {
         "name": "tera-blast",
-        "url": "https://pokeapi.co/api/v2/move/851/"
+        "id": 851
       },
       {
         "name": "temper-flare",
-        "url": "https://pokeapi.co/api/v2/move/915/"
+        "id": 915
       }
     ],
     "official_art": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
@@ -1843,415 +1843,415 @@
     "moves": [
       {
         "name": "mega-punch",
-        "url": "https://pokeapi.co/api/v2/move/5/"
+        "id": 5
       },
       {
         "name": "fire-punch",
-        "url": "https://pokeapi.co/api/v2/move/7/"
+        "id": 7
       },
       {
         "name": "thunder-punch",
-        "url": "https://pokeapi.co/api/v2/move/9/"
+        "id": 9
       },
       {
         "name": "scratch",
-        "url": "https://pokeapi.co/api/v2/move/10/"
+        "id": 10
       },
       {
         "name": "swords-dance",
-        "url": "https://pokeapi.co/api/v2/move/14/"
+        "id": 14
       },
       {
         "name": "cut",
-        "url": "https://pokeapi.co/api/v2/move/15/"
+        "id": 15
       },
       {
         "name": "mega-kick",
-        "url": "https://pokeapi.co/api/v2/move/25/"
+        "id": 25
       },
       {
         "name": "headbutt",
-        "url": "https://pokeapi.co/api/v2/move/29/"
+        "id": 29
       },
       {
         "name": "body-slam",
-        "url": "https://pokeapi.co/api/v2/move/34/"
+        "id": 34
       },
       {
         "name": "take-down",
-        "url": "https://pokeapi.co/api/v2/move/36/"
+        "id": 36
       },
       {
         "name": "double-edge",
-        "url": "https://pokeapi.co/api/v2/move/38/"
+        "id": 38
       },
       {
         "name": "leer",
-        "url": "https://pokeapi.co/api/v2/move/43/"
+        "id": 43
       },
       {
         "name": "bite",
-        "url": "https://pokeapi.co/api/v2/move/44/"
+        "id": 44
       },
       {
         "name": "growl",
-        "url": "https://pokeapi.co/api/v2/move/45/"
+        "id": 45
       },
       {
         "name": "roar",
-        "url": "https://pokeapi.co/api/v2/move/46/"
+        "id": 46
       },
       {
         "name": "ember",
-        "url": "https://pokeapi.co/api/v2/move/52/"
+        "id": 52
       },
       {
         "name": "flamethrower",
-        "url": "https://pokeapi.co/api/v2/move/53/"
+        "id": 53
       },
       {
         "name": "submission",
-        "url": "https://pokeapi.co/api/v2/move/66/"
+        "id": 66
       },
       {
         "name": "counter",
-        "url": "https://pokeapi.co/api/v2/move/68/"
+        "id": 68
       },
       {
         "name": "seismic-toss",
-        "url": "https://pokeapi.co/api/v2/move/69/"
+        "id": 69
       },
       {
         "name": "strength",
-        "url": "https://pokeapi.co/api/v2/move/70/"
+        "id": 70
       },
       {
         "name": "dragon-rage",
-        "url": "https://pokeapi.co/api/v2/move/82/"
+        "id": 82
       },
       {
         "name": "fire-spin",
-        "url": "https://pokeapi.co/api/v2/move/83/"
+        "id": 83
       },
       {
         "name": "dig",
-        "url": "https://pokeapi.co/api/v2/move/91/"
+        "id": 91
       },
       {
         "name": "toxic",
-        "url": "https://pokeapi.co/api/v2/move/92/"
+        "id": 92
       },
       {
         "name": "rage",
-        "url": "https://pokeapi.co/api/v2/move/99/"
+        "id": 99
       },
       {
         "name": "mimic",
-        "url": "https://pokeapi.co/api/v2/move/102/"
+        "id": 102
       },
       {
         "name": "double-team",
-        "url": "https://pokeapi.co/api/v2/move/104/"
+        "id": 104
       },
       {
         "name": "smokescreen",
-        "url": "https://pokeapi.co/api/v2/move/108/"
+        "id": 108
       },
       {
         "name": "defense-curl",
-        "url": "https://pokeapi.co/api/v2/move/111/"
+        "id": 111
       },
       {
         "name": "reflect",
-        "url": "https://pokeapi.co/api/v2/move/115/"
+        "id": 115
       },
       {
         "name": "bide",
-        "url": "https://pokeapi.co/api/v2/move/117/"
+        "id": 117
       },
       {
         "name": "fire-blast",
-        "url": "https://pokeapi.co/api/v2/move/126/"
+        "id": 126
       },
       {
         "name": "swift",
-        "url": "https://pokeapi.co/api/v2/move/129/"
+        "id": 129
       },
       {
         "name": "skull-bash",
-        "url": "https://pokeapi.co/api/v2/move/130/"
+        "id": 130
       },
       {
         "name": "fury-swipes",
-        "url": "https://pokeapi.co/api/v2/move/154/"
+        "id": 154
       },
       {
         "name": "rest",
-        "url": "https://pokeapi.co/api/v2/move/156/"
+        "id": 156
       },
       {
         "name": "rock-slide",
-        "url": "https://pokeapi.co/api/v2/move/157/"
+        "id": 157
       },
       {
         "name": "slash",
-        "url": "https://pokeapi.co/api/v2/move/163/"
+        "id": 163
       },
       {
         "name": "substitute",
-        "url": "https://pokeapi.co/api/v2/move/164/"
+        "id": 164
       },
       {
         "name": "snore",
-        "url": "https://pokeapi.co/api/v2/move/173/"
+        "id": 173
       },
       {
         "name": "curse",
-        "url": "https://pokeapi.co/api/v2/move/174/"
+        "id": 174
       },
       {
         "name": "protect",
-        "url": "https://pokeapi.co/api/v2/move/182/"
+        "id": 182
       },
       {
         "name": "scary-face",
-        "url": "https://pokeapi.co/api/v2/move/184/"
+        "id": 184
       },
       {
         "name": "belly-drum",
-        "url": "https://pokeapi.co/api/v2/move/187/"
+        "id": 187
       },
       {
         "name": "mud-slap",
-        "url": "https://pokeapi.co/api/v2/move/189/"
+        "id": 189
       },
       {
         "name": "outrage",
-        "url": "https://pokeapi.co/api/v2/move/200/"
+        "id": 200
       },
       {
         "name": "endure",
-        "url": "https://pokeapi.co/api/v2/move/203/"
+        "id": 203
       },
       {
         "name": "false-swipe",
-        "url": "https://pokeapi.co/api/v2/move/206/"
+        "id": 206
       },
       {
         "name": "swagger",
-        "url": "https://pokeapi.co/api/v2/move/207/"
+        "id": 207
       },
       {
         "name": "fury-cutter",
-        "url": "https://pokeapi.co/api/v2/move/210/"
+        "id": 210
       },
       {
         "name": "attract",
-        "url": "https://pokeapi.co/api/v2/move/213/"
+        "id": 213
       },
       {
         "name": "sleep-talk",
-        "url": "https://pokeapi.co/api/v2/move/214/"
+        "id": 214
       },
       {
         "name": "return",
-        "url": "https://pokeapi.co/api/v2/move/216/"
+        "id": 216
       },
       {
         "name": "frustration",
-        "url": "https://pokeapi.co/api/v2/move/218/"
+        "id": 218
       },
       {
         "name": "dynamic-punch",
-        "url": "https://pokeapi.co/api/v2/move/223/"
+        "id": 223
       },
       {
         "name": "dragon-breath",
-        "url": "https://pokeapi.co/api/v2/move/225/"
+        "id": 225
       },
       {
         "name": "iron-tail",
-        "url": "https://pokeapi.co/api/v2/move/231/"
+        "id": 231
       },
       {
         "name": "metal-claw",
-        "url": "https://pokeapi.co/api/v2/move/232/"
+        "id": 232
       },
       {
         "name": "hidden-power",
-        "url": "https://pokeapi.co/api/v2/move/237/"
+        "id": 237
       },
       {
         "name": "sunny-day",
-        "url": "https://pokeapi.co/api/v2/move/241/"
+        "id": 241
       },
       {
         "name": "crunch",
-        "url": "https://pokeapi.co/api/v2/move/242/"
+        "id": 242
       },
       {
         "name": "ancient-power",
-        "url": "https://pokeapi.co/api/v2/move/246/"
+        "id": 246
       },
       {
         "name": "rock-smash",
-        "url": "https://pokeapi.co/api/v2/move/249/"
+        "id": 249
       },
       {
         "name": "beat-up",
-        "url": "https://pokeapi.co/api/v2/move/251/"
+        "id": 251
       },
       {
         "name": "heat-wave",
-        "url": "https://pokeapi.co/api/v2/move/257/"
+        "id": 257
       },
       {
         "name": "will-o-wisp",
-        "url": "https://pokeapi.co/api/v2/move/261/"
+        "id": 261
       },
       {
         "name": "facade",
-        "url": "https://pokeapi.co/api/v2/move/263/"
+        "id": 263
       },
       {
         "name": "focus-punch",
-        "url": "https://pokeapi.co/api/v2/move/264/"
+        "id": 264
       },
       {
         "name": "helping-hand",
-        "url": "https://pokeapi.co/api/v2/move/270/"
+        "id": 270
       },
       {
         "name": "brick-break",
-        "url": "https://pokeapi.co/api/v2/move/280/"
+        "id": 280
       },
       {
         "name": "secret-power",
-        "url": "https://pokeapi.co/api/v2/move/290/"
+        "id": 290
       },
       {
         "name": "weather-ball",
-        "url": "https://pokeapi.co/api/v2/move/311/"
+        "id": 311
       },
       {
         "name": "overheat",
-        "url": "https://pokeapi.co/api/v2/move/315/"
+        "id": 315
       },
       {
         "name": "rock-tomb",
-        "url": "https://pokeapi.co/api/v2/move/317/"
+        "id": 317
       },
       {
         "name": "aerial-ace",
-        "url": "https://pokeapi.co/api/v2/move/332/"
+        "id": 332
       },
       {
         "name": "dragon-claw",
-        "url": "https://pokeapi.co/api/v2/move/337/"
+        "id": 337
       },
       {
         "name": "dragon-dance",
-        "url": "https://pokeapi.co/api/v2/move/349/"
+        "id": 349
       },
       {
         "name": "natural-gift",
-        "url": "https://pokeapi.co/api/v2/move/363/"
+        "id": 363
       },
       {
         "name": "fling",
-        "url": "https://pokeapi.co/api/v2/move/374/"
+        "id": 374
       },
       {
         "name": "flare-blitz",
-        "url": "https://pokeapi.co/api/v2/move/394/"
+        "id": 394
       },
       {
         "name": "dragon-pulse",
-        "url": "https://pokeapi.co/api/v2/move/406/"
+        "id": 406
       },
       {
         "name": "dragon-rush",
-        "url": "https://pokeapi.co/api/v2/move/407/"
+        "id": 407
       },
       {
         "name": "focus-blast",
-        "url": "https://pokeapi.co/api/v2/move/411/"
+        "id": 411
       },
       {
         "name": "shadow-claw",
-        "url": "https://pokeapi.co/api/v2/move/421/"
+        "id": 421
       },
       {
         "name": "fire-fang",
-        "url": "https://pokeapi.co/api/v2/move/424/"
+        "id": 424
       },
       {
         "name": "captivate",
-        "url": "https://pokeapi.co/api/v2/move/445/"
+        "id": 445
       },
       {
         "name": "hone-claws",
-        "url": "https://pokeapi.co/api/v2/move/468/"
+        "id": 468
       },
       {
         "name": "flame-burst",
-        "url": "https://pokeapi.co/api/v2/move/481/"
+        "id": 481
       },
       {
         "name": "flame-charge",
-        "url": "https://pokeapi.co/api/v2/move/488/"
+        "id": 488
       },
       {
         "name": "round",
-        "url": "https://pokeapi.co/api/v2/move/496/"
+        "id": 496
       },
       {
         "name": "echoed-voice",
-        "url": "https://pokeapi.co/api/v2/move/497/"
+        "id": 497
       },
       {
         "name": "incinerate",
-        "url": "https://pokeapi.co/api/v2/move/510/"
+        "id": 510
       },
       {
         "name": "acrobatics",
-        "url": "https://pokeapi.co/api/v2/move/512/"
+        "id": 512
       },
       {
         "name": "inferno",
-        "url": "https://pokeapi.co/api/v2/move/517/"
+        "id": 517
       },
       {
         "name": "fire-pledge",
-        "url": "https://pokeapi.co/api/v2/move/519/"
+        "id": 519
       },
       {
         "name": "dragon-tail",
-        "url": "https://pokeapi.co/api/v2/move/525/"
+        "id": 525
       },
       {
         "name": "work-up",
-        "url": "https://pokeapi.co/api/v2/move/526/"
+        "id": 526
       },
       {
         "name": "confide",
-        "url": "https://pokeapi.co/api/v2/move/590/"
+        "id": 590
       },
       {
         "name": "power-up-punch",
-        "url": "https://pokeapi.co/api/v2/move/612/"
+        "id": 612
       },
       {
         "name": "breaking-swipe",
-        "url": "https://pokeapi.co/api/v2/move/784/"
+        "id": 784
       },
       {
         "name": "tera-blast",
-        "url": "https://pokeapi.co/api/v2/move/851/"
+        "id": 851
       },
       {
         "name": "temper-flare",
-        "url": "https://pokeapi.co/api/v2/move/915/"
+        "id": 915
       }
     ],
     "official_art": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
@@ -2336,527 +2336,527 @@
     "moves": [
       {
         "name": "mega-punch",
-        "url": "https://pokeapi.co/api/v2/move/5/"
+        "id": 5
       },
       {
         "name": "fire-punch",
-        "url": "https://pokeapi.co/api/v2/move/7/"
+        "id": 7
       },
       {
         "name": "thunder-punch",
-        "url": "https://pokeapi.co/api/v2/move/9/"
+        "id": 9
       },
       {
         "name": "scratch",
-        "url": "https://pokeapi.co/api/v2/move/10/"
+        "id": 10
       },
       {
         "name": "swords-dance",
-        "url": "https://pokeapi.co/api/v2/move/14/"
+        "id": 14
       },
       {
         "name": "cut",
-        "url": "https://pokeapi.co/api/v2/move/15/"
+        "id": 15
       },
       {
         "name": "wing-attack",
-        "url": "https://pokeapi.co/api/v2/move/17/"
+        "id": 17
       },
       {
         "name": "fly",
-        "url": "https://pokeapi.co/api/v2/move/19/"
+        "id": 19
       },
       {
         "name": "mega-kick",
-        "url": "https://pokeapi.co/api/v2/move/25/"
+        "id": 25
       },
       {
         "name": "headbutt",
-        "url": "https://pokeapi.co/api/v2/move/29/"
+        "id": 29
       },
       {
         "name": "body-slam",
-        "url": "https://pokeapi.co/api/v2/move/34/"
+        "id": 34
       },
       {
         "name": "take-down",
-        "url": "https://pokeapi.co/api/v2/move/36/"
+        "id": 36
       },
       {
         "name": "double-edge",
-        "url": "https://pokeapi.co/api/v2/move/38/"
+        "id": 38
       },
       {
         "name": "leer",
-        "url": "https://pokeapi.co/api/v2/move/43/"
+        "id": 43
       },
       {
         "name": "bite",
-        "url": "https://pokeapi.co/api/v2/move/44/"
+        "id": 44
       },
       {
         "name": "growl",
-        "url": "https://pokeapi.co/api/v2/move/45/"
+        "id": 45
       },
       {
         "name": "roar",
-        "url": "https://pokeapi.co/api/v2/move/46/"
+        "id": 46
       },
       {
         "name": "ember",
-        "url": "https://pokeapi.co/api/v2/move/52/"
+        "id": 52
       },
       {
         "name": "flamethrower",
-        "url": "https://pokeapi.co/api/v2/move/53/"
+        "id": 53
       },
       {
         "name": "hyper-beam",
-        "url": "https://pokeapi.co/api/v2/move/63/"
+        "id": 63
       },
       {
         "name": "submission",
-        "url": "https://pokeapi.co/api/v2/move/66/"
+        "id": 66
       },
       {
         "name": "counter",
-        "url": "https://pokeapi.co/api/v2/move/68/"
+        "id": 68
       },
       {
         "name": "seismic-toss",
-        "url": "https://pokeapi.co/api/v2/move/69/"
+        "id": 69
       },
       {
         "name": "strength",
-        "url": "https://pokeapi.co/api/v2/move/70/"
+        "id": 70
       },
       {
         "name": "solar-beam",
-        "url": "https://pokeapi.co/api/v2/move/76/"
+        "id": 76
       },
       {
         "name": "dragon-rage",
-        "url": "https://pokeapi.co/api/v2/move/82/"
+        "id": 82
       },
       {
         "name": "fire-spin",
-        "url": "https://pokeapi.co/api/v2/move/83/"
+        "id": 83
       },
       {
         "name": "earthquake",
-        "url": "https://pokeapi.co/api/v2/move/89/"
+        "id": 89
       },
       {
         "name": "fissure",
-        "url": "https://pokeapi.co/api/v2/move/90/"
+        "id": 90
       },
       {
         "name": "dig",
-        "url": "https://pokeapi.co/api/v2/move/91/"
+        "id": 91
       },
       {
         "name": "toxic",
-        "url": "https://pokeapi.co/api/v2/move/92/"
+        "id": 92
       },
       {
         "name": "rage",
-        "url": "https://pokeapi.co/api/v2/move/99/"
+        "id": 99
       },
       {
         "name": "mimic",
-        "url": "https://pokeapi.co/api/v2/move/102/"
+        "id": 102
       },
       {
         "name": "double-team",
-        "url": "https://pokeapi.co/api/v2/move/104/"
+        "id": 104
       },
       {
         "name": "smokescreen",
-        "url": "https://pokeapi.co/api/v2/move/108/"
+        "id": 108
       },
       {
         "name": "defense-curl",
-        "url": "https://pokeapi.co/api/v2/move/111/"
+        "id": 111
       },
       {
         "name": "reflect",
-        "url": "https://pokeapi.co/api/v2/move/115/"
+        "id": 115
       },
       {
         "name": "bide",
-        "url": "https://pokeapi.co/api/v2/move/117/"
+        "id": 117
       },
       {
         "name": "fire-blast",
-        "url": "https://pokeapi.co/api/v2/move/126/"
+        "id": 126
       },
       {
         "name": "swift",
-        "url": "https://pokeapi.co/api/v2/move/129/"
+        "id": 129
       },
       {
         "name": "skull-bash",
-        "url": "https://pokeapi.co/api/v2/move/130/"
+        "id": 130
       },
       {
         "name": "fury-swipes",
-        "url": "https://pokeapi.co/api/v2/move/154/"
+        "id": 154
       },
       {
         "name": "rest",
-        "url": "https://pokeapi.co/api/v2/move/156/"
+        "id": 156
       },
       {
         "name": "rock-slide",
-        "url": "https://pokeapi.co/api/v2/move/157/"
+        "id": 157
       },
       {
         "name": "slash",
-        "url": "https://pokeapi.co/api/v2/move/163/"
+        "id": 163
       },
       {
         "name": "substitute",
-        "url": "https://pokeapi.co/api/v2/move/164/"
+        "id": 164
       },
       {
         "name": "snore",
-        "url": "https://pokeapi.co/api/v2/move/173/"
+        "id": 173
       },
       {
         "name": "curse",
-        "url": "https://pokeapi.co/api/v2/move/174/"
+        "id": 174
       },
       {
         "name": "protect",
-        "url": "https://pokeapi.co/api/v2/move/182/"
+        "id": 182
       },
       {
         "name": "scary-face",
-        "url": "https://pokeapi.co/api/v2/move/184/"
+        "id": 184
       },
       {
         "name": "belly-drum",
-        "url": "https://pokeapi.co/api/v2/move/187/"
+        "id": 187
       },
       {
         "name": "mud-slap",
-        "url": "https://pokeapi.co/api/v2/move/189/"
+        "id": 189
       },
       {
         "name": "outrage",
-        "url": "https://pokeapi.co/api/v2/move/200/"
+        "id": 200
       },
       {
         "name": "sandstorm",
-        "url": "https://pokeapi.co/api/v2/move/201/"
+        "id": 201
       },
       {
         "name": "endure",
-        "url": "https://pokeapi.co/api/v2/move/203/"
+        "id": 203
       },
       {
         "name": "false-swipe",
-        "url": "https://pokeapi.co/api/v2/move/206/"
+        "id": 206
       },
       {
         "name": "swagger",
-        "url": "https://pokeapi.co/api/v2/move/207/"
+        "id": 207
       },
       {
         "name": "fury-cutter",
-        "url": "https://pokeapi.co/api/v2/move/210/"
+        "id": 210
       },
       {
         "name": "steel-wing",
-        "url": "https://pokeapi.co/api/v2/move/211/"
+        "id": 211
       },
       {
         "name": "attract",
-        "url": "https://pokeapi.co/api/v2/move/213/"
+        "id": 213
       },
       {
         "name": "sleep-talk",
-        "url": "https://pokeapi.co/api/v2/move/214/"
+        "id": 214
       },
       {
         "name": "return",
-        "url": "https://pokeapi.co/api/v2/move/216/"
+        "id": 216
       },
       {
         "name": "frustration",
-        "url": "https://pokeapi.co/api/v2/move/218/"
+        "id": 218
       },
       {
         "name": "dynamic-punch",
-        "url": "https://pokeapi.co/api/v2/move/223/"
+        "id": 223
       },
       {
         "name": "dragon-breath",
-        "url": "https://pokeapi.co/api/v2/move/225/"
+        "id": 225
       },
       {
         "name": "iron-tail",
-        "url": "https://pokeapi.co/api/v2/move/231/"
+        "id": 231
       },
       {
         "name": "metal-claw",
-        "url": "https://pokeapi.co/api/v2/move/232/"
+        "id": 232
       },
       {
         "name": "hidden-power",
-        "url": "https://pokeapi.co/api/v2/move/237/"
+        "id": 237
       },
       {
         "name": "twister",
-        "url": "https://pokeapi.co/api/v2/move/239/"
+        "id": 239
       },
       {
         "name": "sunny-day",
-        "url": "https://pokeapi.co/api/v2/move/241/"
+        "id": 241
       },
       {
         "name": "crunch",
-        "url": "https://pokeapi.co/api/v2/move/242/"
+        "id": 242
       },
       {
         "name": "ancient-power",
-        "url": "https://pokeapi.co/api/v2/move/246/"
+        "id": 246
       },
       {
         "name": "rock-smash",
-        "url": "https://pokeapi.co/api/v2/move/249/"
+        "id": 249
       },
       {
         "name": "beat-up",
-        "url": "https://pokeapi.co/api/v2/move/251/"
+        "id": 251
       },
       {
         "name": "heat-wave",
-        "url": "https://pokeapi.co/api/v2/move/257/"
+        "id": 257
       },
       {
         "name": "will-o-wisp",
-        "url": "https://pokeapi.co/api/v2/move/261/"
+        "id": 261
       },
       {
         "name": "facade",
-        "url": "https://pokeapi.co/api/v2/move/263/"
+        "id": 263
       },
       {
         "name": "focus-punch",
-        "url": "https://pokeapi.co/api/v2/move/264/"
+        "id": 264
       },
       {
         "name": "helping-hand",
-        "url": "https://pokeapi.co/api/v2/move/270/"
+        "id": 270
       },
       {
         "name": "brick-break",
-        "url": "https://pokeapi.co/api/v2/move/280/"
+        "id": 280
       },
       {
         "name": "secret-power",
-        "url": "https://pokeapi.co/api/v2/move/290/"
+        "id": 290
       },
       {
         "name": "blaze-kick",
-        "url": "https://pokeapi.co/api/v2/move/299/"
+        "id": 299
       },
       {
         "name": "blast-burn",
-        "url": "https://pokeapi.co/api/v2/move/307/"
+        "id": 307
       },
       {
         "name": "weather-ball",
-        "url": "https://pokeapi.co/api/v2/move/311/"
+        "id": 311
       },
       {
         "name": "air-cutter",
-        "url": "https://pokeapi.co/api/v2/move/314/"
+        "id": 314
       },
       {
         "name": "overheat",
-        "url": "https://pokeapi.co/api/v2/move/315/"
+        "id": 315
       },
       {
         "name": "rock-tomb",
-        "url": "https://pokeapi.co/api/v2/move/317/"
+        "id": 317
       },
       {
         "name": "aerial-ace",
-        "url": "https://pokeapi.co/api/v2/move/332/"
+        "id": 332
       },
       {
         "name": "dragon-claw",
-        "url": "https://pokeapi.co/api/v2/move/337/"
+        "id": 337
       },
       {
         "name": "dragon-dance",
-        "url": "https://pokeapi.co/api/v2/move/349/"
+        "id": 349
       },
       {
         "name": "roost",
-        "url": "https://pokeapi.co/api/v2/move/355/"
+        "id": 355
       },
       {
         "name": "natural-gift",
-        "url": "https://pokeapi.co/api/v2/move/363/"
+        "id": 363
       },
       {
         "name": "tailwind",
-        "url": "https://pokeapi.co/api/v2/move/366/"
+        "id": 366
       },
       {
         "name": "fling",
-        "url": "https://pokeapi.co/api/v2/move/374/"
+        "id": 374
       },
       {
         "name": "flare-blitz",
-        "url": "https://pokeapi.co/api/v2/move/394/"
+        "id": 394
       },
       {
         "name": "air-slash",
-        "url": "https://pokeapi.co/api/v2/move/403/"
+        "id": 403
       },
       {
         "name": "dragon-pulse",
-        "url": "https://pokeapi.co/api/v2/move/406/"
+        "id": 406
       },
       {
         "name": "dragon-rush",
-        "url": "https://pokeapi.co/api/v2/move/407/"
+        "id": 407
       },
       {
         "name": "focus-blast",
-        "url": "https://pokeapi.co/api/v2/move/411/"
+        "id": 411
       },
       {
         "name": "giga-impact",
-        "url": "https://pokeapi.co/api/v2/move/416/"
+        "id": 416
       },
       {
         "name": "shadow-claw",
-        "url": "https://pokeapi.co/api/v2/move/421/"
+        "id": 421
       },
       {
         "name": "fire-fang",
-        "url": "https://pokeapi.co/api/v2/move/424/"
+        "id": 424
       },
       {
         "name": "defog",
-        "url": "https://pokeapi.co/api/v2/move/432/"
+        "id": 432
       },
       {
         "name": "captivate",
-        "url": "https://pokeapi.co/api/v2/move/445/"
+        "id": 445
       },
       {
         "name": "ominous-wind",
-        "url": "https://pokeapi.co/api/v2/move/466/"
+        "id": 466
       },
       {
         "name": "hone-claws",
-        "url": "https://pokeapi.co/api/v2/move/468/"
+        "id": 468
       },
       {
         "name": "flame-burst",
-        "url": "https://pokeapi.co/api/v2/move/481/"
+        "id": 481
       },
       {
         "name": "flame-charge",
-        "url": "https://pokeapi.co/api/v2/move/488/"
+        "id": 488
       },
       {
         "name": "round",
-        "url": "https://pokeapi.co/api/v2/move/496/"
+        "id": 496
       },
       {
         "name": "echoed-voice",
-        "url": "https://pokeapi.co/api/v2/move/497/"
+        "id": 497
       },
       {
         "name": "sky-drop",
-        "url": "https://pokeapi.co/api/v2/move/507/"
+        "id": 507
       },
       {
         "name": "incinerate",
-        "url": "https://pokeapi.co/api/v2/move/510/"
+        "id": 510
       },
       {
         "name": "acrobatics",
-        "url": "https://pokeapi.co/api/v2/move/512/"
+        "id": 512
       },
       {
         "name": "inferno",
-        "url": "https://pokeapi.co/api/v2/move/517/"
+        "id": 517
       },
       {
         "name": "fire-pledge",
-        "url": "https://pokeapi.co/api/v2/move/519/"
+        "id": 519
       },
       {
         "name": "bulldoze",
-        "url": "https://pokeapi.co/api/v2/move/523/"
+        "id": 523
       },
       {
         "name": "dragon-tail",
-        "url": "https://pokeapi.co/api/v2/move/525/"
+        "id": 525
       },
       {
         "name": "work-up",
-        "url": "https://pokeapi.co/api/v2/move/526/"
+        "id": 526
       },
       {
         "name": "heat-crash",
-        "url": "https://pokeapi.co/api/v2/move/535/"
+        "id": 535
       },
       {
         "name": "hurricane",
-        "url": "https://pokeapi.co/api/v2/move/542/"
+        "id": 542
       },
       {
         "name": "confide",
-        "url": "https://pokeapi.co/api/v2/move/590/"
+        "id": 590
       },
       {
         "name": "mystical-fire",
-        "url": "https://pokeapi.co/api/v2/move/595/"
+        "id": 595
       },
       {
         "name": "power-up-punch",
-        "url": "https://pokeapi.co/api/v2/move/612/"
+        "id": 612
       },
       {
         "name": "brutal-swing",
-        "url": "https://pokeapi.co/api/v2/move/693/"
+        "id": 693
       },
       {
         "name": "breaking-swipe",
-        "url": "https://pokeapi.co/api/v2/move/784/"
+        "id": 784
       },
       {
         "name": "scale-shot",
-        "url": "https://pokeapi.co/api/v2/move/799/"
+        "id": 799
       },
       {
         "name": "dual-wingbeat",
-        "url": "https://pokeapi.co/api/v2/move/814/"
+        "id": 814
       },
       {
         "name": "scorching-sands",
-        "url": "https://pokeapi.co/api/v2/move/815/"
+        "id": 815
       },
       {
         "name": "tera-blast",
-        "url": "https://pokeapi.co/api/v2/move/851/"
+        "id": 851
       },
       {
         "name": "dragon-cheer",
-        "url": "https://pokeapi.co/api/v2/move/913/"
+        "id": 913
       },
       {
         "name": "temper-flare",
-        "url": "https://pokeapi.co/api/v2/move/915/"
+        "id": 915
       }
     ],
     "official_art": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",

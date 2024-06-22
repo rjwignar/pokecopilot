@@ -84,7 +84,10 @@ async function replaceUrls(pokemonData) {
           })),
           height: pokemon.height,
           id: pokemon.id,
-          moves: pokemon.moves.map((move) => move.move),
+          moves: pokemon.moves.map((moveElement) => ({
+            name: moveElement.move.name,
+            id: parseInt(moveElement.move.url.match(/\/(\d+\/)$/)[1], 10),
+          })),
           official_art: pokemon.sprites.other['official-artwork']['front_default'],
           showdown_gif: pokemon.sprites.other['showdown']['front_default'],
           stats: pokemon.stats,
