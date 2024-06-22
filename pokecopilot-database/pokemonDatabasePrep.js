@@ -81,7 +81,7 @@ replaceUrls(pokemonData).then((result) => {
         id: parseInt(abilityElement.ability.url.match(/\/(\d+\/)$/)[1], 10),
       })),
       height: pokemon.height,
-      id: pokemon.id,
+      _id: pokemon.id,
       moves: pokemon.moves.map((moveElement) => ({
         name: moveElement.move.name,
         id: parseInt(moveElement.move.url.match(/\/(\d+\/)$/)[1], 10),

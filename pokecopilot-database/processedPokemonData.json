@@ -14,7 +14,7 @@
       }
     ],
     "height": 7,
-    "id": 1,
+    "_id": 1,
     "moves": [
       {
         "name": "razor-wind",
@@ -422,7 +422,7 @@
       }
     ],
     "height": 10,
-    "id": 2,
+    "_id": 2,
     "moves": [
       {
         "name": "swords-dance",
@@ -818,7 +818,7 @@
       }
     ],
     "height": 20,
-    "id": 3,
+    "_id": 3,
     "moves": [
       {
         "name": "swords-dance",
@@ -1266,7 +1266,7 @@
       }
     ],
     "height": 6,
-    "id": 4,
+    "_id": 4,
     "moves": [
       {
         "name": "mega-punch",
@@ -1746,7 +1746,7 @@
       }
     ],
     "height": 11,
-    "id": 5,
+    "_id": 5,
     "moves": [
       {
         "name": "mega-punch",
@@ -2218,7 +2218,7 @@
       }
     ],
     "height": 17,
-    "id": 6,
+    "_id": 6,
     "moves": [
       {
         "name": "mega-punch",
