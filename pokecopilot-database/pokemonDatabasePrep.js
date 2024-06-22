@@ -31,37 +31,8 @@ const fs = require('fs');
  * types
  * weight
  */
-const pokemonData = {
-  "count": 1302,
-  "next": "https://pokeapi.co/api/v2/pokemon/?offset=10&limit=10",
-  "previous": null,
-  "results": [
-    {
-      "name": "bulbasaur",
-      "url": "https://pokeapi.co/api/v2/pokemon/1/"
-    },
-    {
-      "name": "ivysaur",
-      "url": "https://pokeapi.co/api/v2/pokemon/2/"
-    },
-    {
-      "name": "venusaur",
-      "url": "https://pokeapi.co/api/v2/pokemon/3/"
-    },
-    {
-      "name": "charmander",
-      "url": "https://pokeapi.co/api/v2/pokemon/4/"
-    },
-    {
-      "name": "charmeleon",
-      "url": "https://pokeapi.co/api/v2/pokemon/5/"
-    },
-    {
-      "name": "charizard",
-      "url": "https://pokeapi.co/api/v2/pokemon/6/"
-    },
-  ]
-};
+
+const pokemonData = JSON.parse(fs.readFileSync('pokeapiData/pokemonSample.json', 'utf-8'));
 
 async function replaceUrls(pokemonData) {
   pokemonData.results = await Promise.all(pokemonData.results.map(async (pokemon) => {
