@@ -96,7 +96,11 @@ async function replaceUrls(pokemonData) {
             id: parseInt(statElement.stat.url.match(/\/(\d+\/)$/)[1], 10),
             value: statElement.base_stat,
           })),
-          types: pokemon.types,
+          // types: pokemon.types,
+          types: pokemon.types.map((typeElement) =>({
+            name: typeElement.type.name,
+            id: parseInt(typeElement.type.url.match(/\/(\d+\/)$/)[1], 10),
+          })),
           weight: pokemon.weight
         };
       });
