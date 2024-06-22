@@ -101,6 +101,6 @@ replaceUrls(pokemonData).then((result) => {
       weight: pokemon.weight
     };
   });
-  fs.writeFileSync('processedPokemonData.json', JSON.stringify(processedData, null, 2));
-  console.log('Processed data written to processedPokemonData.json');
+  fs.writeFileSync('processedData/pokemon.json', JSON.stringify(processedData, null, 2));
+  console.log('Processed data written to processedData/pokemon.json');
 });
