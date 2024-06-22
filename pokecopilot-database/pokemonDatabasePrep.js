@@ -32,7 +32,7 @@ const fs = require('fs');
  * weight
  */
 
-const pokemonData = JSON.parse(fs.readFileSync('pokeapiData/pokemonSample.json', 'utf-8'));
+const pokemonData = JSON.parse(fs.readFileSync('pokeapiData/pokemon.json', 'utf-8'));
 
 async function replaceUrls(pokemonData) {
   pokemonData.results = await Promise.all(pokemonData.results.map(async (pokemon) => {
