@@ -93,6 +93,7 @@ replaceUrls(pokemonData).then((result) => {
         id: parseInt(statElement.stat.url.match(/\/(\d+\/)$/)[1], 10),
         value: statElement.base_stat,
       })),
+      base_stat_total: pokemon.stats.map(stat => stat.base_stat).reduce((acc, current) => acc + current, 0),
       types: pokemon.types.map((typeElement) => ({
         name: typeElement.type.name,
         id: parseInt(typeElement.type.url.match(/\/(\d+\/)$/)[1], 10),

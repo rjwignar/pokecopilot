@@ -395,6 +395,7 @@
         "value": 45
       }
     ],
+    "base_stat_total": 318,
     "types": [
       {
         "name": "grass",
@@ -791,6 +792,7 @@
         "value": 60
       }
     ],
+    "base_stat_total": 405,
     "types": [
       {
         "name": "grass",
@@ -1239,6 +1241,7 @@
         "value": 80
       }
     ],
+    "base_stat_total": 525,
     "types": [
       {
         "name": "grass",
@@ -1723,6 +1726,7 @@
         "value": 65
       }
     ],
+    "base_stat_total": 309,
     "types": [
       {
         "name": "fire",
@@ -2195,6 +2199,7 @@
         "value": 80
       }
     ],
+    "base_stat_total": 405,
     "types": [
       {
         "name": "fire",
@@ -2779,6 +2784,7 @@
         "value": 100
       }
     ],
+    "base_stat_total": 534,
     "types": [
       {
         "name": "fire",
