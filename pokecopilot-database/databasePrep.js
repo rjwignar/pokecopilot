@@ -77,9 +77,10 @@ async function replaceUrls(pokemonData) {
     const transform = result.results.map((pokemon) => {
         return {
           name: pokemon.name,
-          abilities: pokemon.abilities.map((ability)=> ({
-            ...ability.ability,
-            is_hidden: ability.is_hidden,
+          abilities: pokemon.abilities.map((abilityElement)=> ({
+            name: abilityElement.ability.name,
+            is_hidden: abilityElement.is_hidden,
+            id: parseInt(abilityElement.ability.url.match(/\/(\d+\/)$/)[1], 10),
           })),
           height: pokemon.height,
           id: pokemon.id,

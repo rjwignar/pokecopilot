@@ -4,13 +4,13 @@
     "abilities": [
       {
         "name": "overgrow",
-        "url": "https://pokeapi.co/api/v2/ability/65/",
-        "is_hidden": false
+        "is_hidden": false,
+        "id": 65
       },
       {
         "name": "chlorophyll",
-        "url": "https://pokeapi.co/api/v2/ability/34/",
-        "is_hidden": true
+        "is_hidden": true,
+        "id": 34
       }
     ],
     "height": 7,
@@ -436,13 +436,13 @@
     "abilities": [
       {
         "name": "overgrow",
-        "url": "https://pokeapi.co/api/v2/ability/65/",
-        "is_hidden": false
+        "is_hidden": false,
+        "id": 65
       },
       {
         "name": "chlorophyll",
-        "url": "https://pokeapi.co/api/v2/ability/34/",
-        "is_hidden": true
+        "is_hidden": true,
+        "id": 34
       }
     ],
     "height": 10,
@@ -856,13 +856,13 @@
     "abilities": [
       {
         "name": "overgrow",
-        "url": "https://pokeapi.co/api/v2/ability/65/",
-        "is_hidden": false
+        "is_hidden": false,
+        "id": 65
       },
       {
         "name": "chlorophyll",
-        "url": "https://pokeapi.co/api/v2/ability/34/",
-        "is_hidden": true
+        "is_hidden": true,
+        "id": 34
       }
     ],
     "height": 20,
@@ -1328,13 +1328,13 @@
     "abilities": [
       {
         "name": "blaze",
-        "url": "https://pokeapi.co/api/v2/ability/66/",
-        "is_hidden": false
+        "is_hidden": false,
+        "id": 66
       },
       {
         "name": "solar-power",
-        "url": "https://pokeapi.co/api/v2/ability/94/",
-        "is_hidden": true
+        "is_hidden": true,
+        "id": 94
       }
     ],
     "height": 6,
@@ -1829,13 +1829,13 @@
     "abilities": [
       {
         "name": "blaze",
-        "url": "https://pokeapi.co/api/v2/ability/66/",
-        "is_hidden": false
+        "is_hidden": false,
+        "id": 66
       },
       {
         "name": "solar-power",
-        "url": "https://pokeapi.co/api/v2/ability/94/",
-        "is_hidden": true
+        "is_hidden": true,
+        "id": 94
       }
     ],
     "height": 11,
@@ -2322,13 +2322,13 @@
     "abilities": [
       {
         "name": "blaze",
-        "url": "https://pokeapi.co/api/v2/ability/66/",
-        "is_hidden": false
+        "is_hidden": false,
+        "id": 66
       },
       {
         "name": "solar-power",
-        "url": "https://pokeapi.co/api/v2/ability/94/",
-        "is_hidden": true
+        "is_hidden": true,
+        "id": 94
       }
     ],
     "height": 17,
