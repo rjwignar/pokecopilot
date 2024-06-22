@@ -90,7 +90,12 @@ async function replaceUrls(pokemonData) {
           })),
           official_art: pokemon.sprites.other['official-artwork']['front_default'],
           showdown_gif: pokemon.sprites.other['showdown']['front_default'],
-          stats: pokemon.stats,
+          // stats: pokemon.stats,
+          stats: pokemon.stats.map((statElement) =>({
+            name: statElement.stat.name,
+            id: parseInt(statElement.stat.url.match(/\/(\d+\/)$/)[1], 10),
+            value: statElement.base_stat,
+          })),
           types: pokemon.types,
           weight: pokemon.weight
         };
