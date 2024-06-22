@@ -74,7 +74,7 @@ async function replaceUrls(pokemonData) {
   replaceUrls(pokemonData).then((result) => {
     console.log("result", result);
     console.log("result results", result.results);
-    const transform = result.results.map((pokemon) => {
+    const processedData = result.results.map((pokemon) => {
         return {
           name: pokemon.name,
           abilities: pokemon.abilities.map((abilityElement)=> ({
@@ -105,9 +105,8 @@ async function replaceUrls(pokemonData) {
         };
       });
 
-      console.log("transformedData", transform);
-    fs.writeFileSync('pokemonData.json', JSON.stringify(result, null, 2));
-    fs.writeFileSync('transform.json', JSON.stringify(transform,null, 2));
-    console.log('Data written to pokemonData.json');
+      console.log("transformedData", processedData);
+    fs.writeFileSync('processedPokemonData.json', JSON.stringify(processedData,null, 2));
+    console.log('Processed data written to processedPokemonData.json');
   });
   
