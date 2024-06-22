@@ -77,7 +77,10 @@ async function replaceUrls(pokemonData) {
     const transform = result.results.map((pokemon) => {
         return {
           name: pokemon.name,
-          abilities: pokemon.abilities,
+          abilities: pokemon.abilities.map((ability)=> ({
+            ...ability.ability,
+            is_hidden: ability.is_hidden,
+          })),
           height: pokemon.height,
           id: pokemon.id,
           moves: pokemon.moves.map((move) => move.move),
@@ -88,7 +91,7 @@ async function replaceUrls(pokemonData) {
           weight: pokemon.weight
         };
       });
-      
+
       console.log("transformedData", transform);
     fs.writeFileSync('pokemonData.json', JSON.stringify(result, null, 2));
     fs.writeFileSync('transform.json', JSON.stringify(transform,null, 2));
