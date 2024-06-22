@@ -18,6 +18,19 @@ const fs = require('fs');
  */
 
 // working dataset for processing
+/**
+ * Information we want:
+ * name
+ * abilities
+ * height
+ * id
+ * moves
+ * sprites-?other->official-artwork->front_default OR
+ * sprites->other->showdown->front_default
+ * stats
+ * types
+ * weight
+ */
 const pokemonData = {
   "count": 1302,
   "next": "https://pokeapi.co/api/v2/pokemon/?offset=10&limit=10",
@@ -57,9 +70,28 @@ async function replaceUrls(pokemonData) {
     }));
     return pokemonData;
   }
-  
+
   replaceUrls(pokemonData).then((result) => {
+    console.log("result", result);
+    console.log("result results", result.results);
+    const transform = result.results.map((pokemon) => {
+        return {
+          name: pokemon.name,
+          abilities: pokemon.abilities,
+          height: pokemon.height,
+          id: pokemon.id,
+          moves: pokemon.moves.map((move) => move.move),
+          official_art: pokemon.sprites.other['official-artwork']['front_default'],
+          showdown_gif: pokemon.sprites.other['showdown']['front_default'],
+          stats: pokemon.stats,
+          types: pokemon.types,
+          weight: pokemon.weight
+        };
+      });
+      
+      console.log("transformedData", transform);
     fs.writeFileSync('pokemonData.json', JSON.stringify(result, null, 2));
+    fs.writeFileSync('transform.json', JSON.stringify(transform,null, 2));
     console.log('Data written to pokemonData.json');
   });
   
