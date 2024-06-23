@@ -21,4 +21,11 @@ async function main() {
     }
 }
 
+async function generateEmbeddings(text) {
+    const embeddings = await aoaiClient.getEmbeddings(embeddingsDeploymentName, text);
+    // Rest period to avoid rate limiting on Azure OpenAI  
+    await new Promise(resolve => setTimeout(resolve, 500));
+    return embeddings.data[0].embedding;
+}
+
 main().catch(console.error);
