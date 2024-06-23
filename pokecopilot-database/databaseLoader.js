@@ -7,7 +7,7 @@ async function main() {
     try {
         await client.connect();
         console.log("Connected to MongoDB");
-        const db = client.db('pokemon');
+        const db = client.db('pokecopilot');
         // load pokemon data
         console.log("Loading pokemon data...");
         // Initialize pokemon collection pointer (will be auto-created if it doesn't exist)
