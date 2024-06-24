@@ -47,24 +47,24 @@ replaceUrls(pokemonData).then((result) => {
     return {
       name: pokemon.name,
       abilities: pokemon.abilities.map((abilityElement) => ({
-        // name: abilityElement.ability.name,
+        name: abilityElement.ability.name,
         is_hidden: abilityElement.is_hidden,
-        id: parseInt(abilityElement.ability.url.match(/\/(\d+\/)$/)[1], 10),
+        // id: parseInt(abilityElement.ability.url.match(/\/(\d+\/)$/)[1], 10),
       })),
       height: pokemon.height,
       _id: pokemon.id,
-      moves: pokemon.moves.map((moveElement) => (parseInt(moveElement.move.url.match(/\/(\d+\/)$/)[1], 10))),
+      moves: pokemon.moves.map((moveElement) => (moveElement.move.name)),
       official_art: pokemon.sprites.other['official-artwork']['front_default'],
       showdown_gif: pokemon.sprites.other['showdown']['front_default'],
       stats: pokemon.stats.map((statElement) => ({
-        // name: statElement.stat.name,
-        id: parseInt(statElement.stat.url.match(/\/(\d+\/)$/)[1], 10),
+        name: statElement.stat.name,
+        // id: parseInt(statElement.stat.url.match(/\/(\d+\/)$/)[1], 10),
         value: statElement.base_stat,
       })),
       base_stat_total: pokemon.stats.map(stat => stat.base_stat).reduce((acc, current) => acc + current, 0),
       types: pokemon.types.map((typeElement) => ({
-        // name: typeElement.type.name,
-        id: parseInt(typeElement.type.url.match(/\/(\d+\/)$/)[1], 10),
+        name: typeElement.type.name,
+        // id: parseInt(typeElement.type.url.match(/\/(\d+\/)$/)[1], 10),
       })),
       weight: pokemon.weight
     };
