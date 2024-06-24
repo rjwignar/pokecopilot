@@ -17,6 +17,10 @@ const abilityData = {
         {
             "name": "speed-boost",
             "url": "https://pokeapi.co/api/v2/ability/3/"
+        },
+        {
+            "name": "calming",
+            "url": "https://pokeapi.co/api/v2/ability/10037/"
         }
     ]
 };
@@ -42,7 +46,8 @@ replaceUrls(abilityData).then((result) =>{
     });
 
     // TO-DO: remove entries where is_main_series is false
+    let mainSeriesAbilities = processedData.filter(ability => ability.is_main_series);
     // TO-DO: remove is_main_series property
-    fs.writeFileSync('processedData/abilities.json', JSON.stringify(processedData, null, 2));
+    fs.writeFileSync('processedData/abilities.json', JSON.stringify(mainSeriesAbilities, null, 2));
     console.log('Processed data written to processedData/abilities.json');
 })
