@@ -36,7 +36,9 @@ replaceUrls(moveData).then((result) =>{
     // Move that don't have an effect in `effect_entries` or `flavor_text_entries` appear to be from spin off games (like Pokemon Legends: Arceus)
     // They may be introduced into the main series games in the future (and have an effect entry or flavor text entry)
     // However, for now let's only include moves that appear in main series games.
-    const mainSeriesMoves = processedData.filter(move => move.effect);
+    // Some moves have the type "shadow" from Pokemon Colosseum and Pokemon XD: Gale of Darkness (spin off titles)
+    // "Shadow moves" don't exist in the main titles, so let's exclude those too
+    let mainSeriesMoves = processedData.filter(move => move.effect && move.type !== "shadow");
 
     fs.writeFileSync('processedData/moves.json', JSON.stringify(mainSeriesMoves, null, 2));
     console.log('Processed data written to processedData/moves.json');
