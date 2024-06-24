@@ -8,11 +8,17 @@ const dbClient = new MongoClient(process.env.MONGODB_URI);
 const embeddingsDeploymentName = "embeddings";
 const completionsDeploymentName = "completions";
 const aoaiClient = new OpenAIClient(process.env.AOAI_ENDPOINT, new AzureKeyCredential(process.env.AOAI_KEY));
+
+const GROOKEY = 810;
+const PECHARUNT = 1025;
 async function main() {
     try {
         await dbClient.connect();
         console.log('Connected to MongoDB');
-        const db = dbClient.db('pokemon');
+        const db = dbClient.db('pokecopilot');
+
+        // vectorize and store embeddings in each document in pokemon collection
+        // await addCollectionContentVectorField(db, 'pokemon');
     } catch (err) {
         console.error(err);
     } finally {
@@ -48,8 +54,8 @@ async function addCollectionContentVectorField(db, collectionName) {
                 upsert: true
             }
         });
-        //output progress every 25 documents
-        if ((i+1) % 25 === 0 || i === docs.length-1) {          
+        //output progress every 1 documents
+        if ((i+1) % 1 === 0 || i === docs.length-1) {          
             console.log(`Generated ${i+1} content vectors of ${docs.length} in the ${collectionName} collection`);
         }
     }
