@@ -13,9 +13,15 @@ async function replaceUrls(abilityData) {
 
 replaceUrls(abilityData).then((result) =>{
     let processedData = result.results.map((ability) =>{
-        const englishEffect = ability.effect_entries.find((effect) => effect.language.name === "en")?.effect;
+        // Search for an English effect in effect_entries first, then flavor_text_entries
+        let englishEffect =  ability.effect_entries.find((effect) => effect.language.name === "en")?.effect;
+        if (!englishEffect) {
+            englishEffect = ability.flavor_text_entries && ability.flavor_text_entries.find((flavorText) => flavorText.language.name === "en")?.flavor_text;
+          }
         return {
-            _id: ability.id,
+            // Don't include id and let MongoDB autoassign _id values
+            // Otherwise, _id sequence might be destroyed if some non-main series abilities are removed
+            // _id: ability.id,
             name: ability.name,
             effect: englishEffect,
             generation: ability.generation.name,
@@ -23,9 +29,9 @@ replaceUrls(abilityData).then((result) =>{
         };
     });
 
-    // TO-DO: remove entries where is_main_series is false
+    // Remove entries where is_main_series is false
     let mainSeriesAbilities = processedData.filter(ability => ability.is_main_series);
-    // TO-DO: remove is_main_series property
+    // Remove is_main_series property
     mainSeriesAbilities.forEach(ability => {
         delete ability.is_main_series;
     });
