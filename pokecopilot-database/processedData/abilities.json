@@ -1,0 +1,23 @@
+[
+  {
+    "_id": 1,
+    "name": "stench",
+    "effect": "This Pokémon's damaging moves have a 10% chance to make the target flinch with each hit if they do not already cause flinching as a secondary effect.\n\nThis ability does not stack with a held item.\n\nOverworld: The wild encounter rate is halved while this Pokémon is first in the party.",
+    "generation": "generation-iii",
+    "is_main_series": true
+  },
+  {
+    "_id": 2,
+    "name": "drizzle",
+    "effect": "The weather changes to rain when this Pokémon enters battle and does not end unless replaced by another weather condition.\n\nIf multiple Pokémon with this ability, drought, sand stream, or snow warning are sent out at the same time, the abilities will activate in order of Speed, respecting trick room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay.",
+    "generation": "generation-iii",
+    "is_main_series": true
+  },
+  {
+    "_id": 3,
+    "name": "speed-boost",
+    "effect": "This Pokémon's Speed rises one stage after each turn.",
+    "generation": "generation-iii",
+    "is_main_series": true
+  }
+]
