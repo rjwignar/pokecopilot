@@ -32,6 +32,12 @@ replaceUrls(moveData).then((result) =>{
             power_points_pp: move.pp,
         };
     });
-    fs.writeFileSync('processedData/moves.json', JSON.stringify(processedData, null, 2));
+
+    // Move that don't have an effect in `effect_entries` or `flavor_text_entries` appear to be from spin off games (like Pokemon Legends: Arceus)
+    // They may be introduced into the main series games in the future (and have an effect entry or flavor text entry)
+    // However, for now let's only include moves that appear in main series games.
+    const mainSeriesMoves = processedData.filter(move => move.effect);
+
+    fs.writeFileSync('processedData/moves.json', JSON.stringify(mainSeriesMoves, null, 2));
     console.log('Processed data written to processedData/moves.json');
 })
