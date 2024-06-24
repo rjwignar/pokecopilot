@@ -34,7 +34,9 @@ replaceUrls(moveData).then((result) =>{
     const processedData = result.results.map((move) =>{
         const englishEffect = move.effect_entries.find((effect) => effect.language.name === "en")?.effect;
         return {
-            _id: move.id,
+            // Don't include id and let MongoDB autoassign _id values
+            // Currently all moves listed in pokeAPI exist in main-series games, but this might change in the future
+            // _id: move.id,
             name: move.name,
             effect: englishEffect,
             type: move.type,
