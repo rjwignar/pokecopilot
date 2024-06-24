@@ -32,7 +32,11 @@ async function replaceUrls(moveData) {
 
 replaceUrls(moveData).then((result) =>{
     const processedData = result.results.map((move) =>{
-        const englishEffect = move.effect_entries.find((effect) => effect.language.name === "en")?.effect;
+        // Search for an English effect in effect_entries first, then flavor_text_entries
+        let englishEffect = move.effect_entries.find((effect) => effect.language.name === "en")?.effect;
+        if (!englishEffect) {
+            englishEffect = move.flavor_text_entries && move.flavor_text_entries.find((flavorText) => flavorText.language.name === "en")?.flavor_text;
+          }
         return {
             // Don't include id and let MongoDB autoassign _id values
             // Currently all moves listed in pokeAPI exist in main-series games, but this might change in the future
