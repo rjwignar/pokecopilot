@@ -43,7 +43,7 @@ replaceUrls(moveData).then((result) =>{
             // _id: move.id,
             name: move.name,
             effect: englishEffect,
-            type: move.type,
+            type: move.type.name,
             category: move.damage_class.name,
             power: move.power,
             priority: move.priority,
