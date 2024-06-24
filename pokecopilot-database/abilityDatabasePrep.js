@@ -1,29 +1,7 @@
 const axios = require('axios');
 const fs = require('fs');
 
-const abilityData = {
-    "count": 367,
-    "next": "https://pokeapi.co/api/v2/ability?offset=20&limit=20",
-    "previous": null,
-    "results": [
-        {
-            "name": "stench",
-            "url": "https://pokeapi.co/api/v2/ability/1/"
-        },
-        {
-            "name": "drizzle",
-            "url": "https://pokeapi.co/api/v2/ability/2/"
-        },
-        {
-            "name": "speed-boost",
-            "url": "https://pokeapi.co/api/v2/ability/3/"
-        },
-        {
-            "name": "calming",
-            "url": "https://pokeapi.co/api/v2/ability/10037/"
-        }
-    ]
-};
+const abilityData = JSON.parse(fs.readFileSync('pokeapiData/abilities.json', 'utf-8'));
 
 async function replaceUrls(abilityData) {
     abilityData.results = await Promise.all(abilityData.results.map(async (ability) =>{
