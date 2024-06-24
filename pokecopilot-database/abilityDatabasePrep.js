@@ -48,6 +48,9 @@ replaceUrls(abilityData).then((result) =>{
     // TO-DO: remove entries where is_main_series is false
     let mainSeriesAbilities = processedData.filter(ability => ability.is_main_series);
     // TO-DO: remove is_main_series property
+    mainSeriesAbilities.forEach(ability => {
+        delete ability.is_main_series;
+    });
     fs.writeFileSync('processedData/abilities.json', JSON.stringify(mainSeriesAbilities, null, 2));
     console.log('Processed data written to processedData/abilities.json');
 })
