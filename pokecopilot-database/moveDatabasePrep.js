@@ -2,7 +2,7 @@ const axios = require('axios');
 const fs = require('fs');
 
 // sample poke api starting data from https://pokeapi.co/api/v2/move?limit=3
-const moveData = JSON.parse(fs.readFileSync('pokeapiData/movesSample.json', 'utf-8'));
+const moveData = JSON.parse(fs.readFileSync('pokeapiData/moves.json', 'utf-8'));
 
 async function replaceUrls(moveData) {
     moveData.results = await Promise.all(moveData.results.map(async (move) =>{
