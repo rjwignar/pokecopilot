@@ -9,7 +9,7 @@ async function main() {
         console.log("Connected to MongoDB");
         const db = client.db('pokecopilot');
 
-        // TO DO - LOAD ABILITY DATA
+        // DONE - LOAD ABILITY DATA
         // load ability data
         console.log("Loading ability data...");
 
