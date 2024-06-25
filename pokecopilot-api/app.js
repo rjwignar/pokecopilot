@@ -1,8 +1,8 @@
 const express = require('express');
 const cors = require('cors')
 const swagger = require('./swagger');
-const CosmicWorksAIAgent = require('./cosmic_works/cosmic_works_ai_agent');
-
+// const CosmicWorksAIAgent = require('./cosmic_works/cosmic_works_ai_agent');
+const PokecopilotAIAgent = require('./pokecopilot/pokecopilot_ai_agent');
 const app = express();
 app.use(express.json());
 app.use(cors()); // enable all CORS requests
@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
  * @openapi
  * /ai:
  *   post:
- *     description: Run the Cosmic Works AI agent
+ *     description: Run the Pokécopilot AI agent
  *     requestBody:
  *       required: true
  *       content:
@@ -58,7 +58,8 @@ app.post('/ai', async (req, res) => {
     if (agentInstancesMap.has(session_id)) {
         agent = agentInstancesMap.get(session_id);
     } else {
-        agent = new CosmicWorksAIAgent();
+        // agent = new CosmicWorksAIAgent();
+        agent = new PokecopilotAIAgent();
         agentInstancesMap.set(session_id, agent);
     }
 
