@@ -21,6 +21,12 @@ async function main() {
         // await addCollectionContentVectorField(db, 'pokemon'); // COMPLETE
         // await addCollectionContentVectorField(db, 'abilities'); // COMPLETE
         // await addCollectionContentVectorField(db, 'moves'); // COMPLETE
+
+
+        // VECTOR SEARCH IN VCORE-BASED AZURE COSMOS DB FOR MONGO
+        // vector search 3 most powerful fire-type moves
+        const searchResults = await vectorSearch(db, 'moves', 'Give me the three most powerful fire-type moves');    
+        searchResults.forEach(printProductSearchResult);
     } catch (err) {
         console.error(err);
     } finally {
@@ -94,4 +100,41 @@ async function addCollectionContentVectorField(db, collectionName) {
         console.log(`Vector index already exists on contentVector field in the ${collectionName} collection`);
     }
 }
+
+async function vectorSearch(db, collectionName, query, numResults = 3) {
+    const collection = db.collection(collectionName);
+    // generate the embedding for incoming question
+    console.log("Query inputted: " + query);
+    const queryEmbedding = await generateEmbeddings(query);
+    
+    const pipeline = [
+        {
+            '$search': {
+                "cosmosSearch": {
+                    "vector": queryEmbedding,
+                    "path": "contentVector",
+                    "k": numResults
+                },
+                "returnStoredSource": true
+            }
+        },
+        { '$project': { 'similarityScore': { '$meta': 'searchScore' }, 'document': '$$ROOT' } }
+    ];
+    
+    //perform vector search and return the results as an array
+    const results = await collection.aggregate(pipeline).toArray();
+    return results;
+}
+
+function printProductSearchResult(result) {  
+    // Print the search result document in a readable format  
+    console.log(`Similarity Score: ${result['similarityScore']}`);  
+    console.log(`Name: ${result['document']['name']}`);  
+    console.log(`Type: ${result['document']['type']}`);
+    console.log(`Category: ${result['document']['category']}`);
+    console.log(`Effect: ${result['document']['effect']}`);
+    console.log(`Base Power: ${result['document']['power']}`);  
+    console.log(`_id: ${result['document']['_id']}\n`);  
+}
+
 main().catch(console.error);
