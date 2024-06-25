@@ -17,8 +17,10 @@ async function main() {
         console.log('Connected to MongoDB');
         const db = dbClient.db('pokecopilot');
 
-        // vectorize and store embeddings in each document in pokemon collection
-        // await addCollectionContentVectorField(db, 'pokemon');
+        // // vectorize and store embeddings in each document in pokemon, abilities, and moves collections
+        // await addCollectionContentVectorField(db, 'pokemon'); // COMPLETE
+        // await addCollectionContentVectorField(db, 'abilities'); // COMPLETE
+        // await addCollectionContentVectorField(db, 'moves'); // COMPLETE
     } catch (err) {
         console.error(err);
     } finally {
