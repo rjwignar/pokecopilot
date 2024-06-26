@@ -1,4 +1,5 @@
-![favicon](https://github.com/rjwignar/pokecopilot/assets/78163326/14087f32-6a03-4732-a988-10560b6e10e0)
+
+![pokecopilotLogo - Copy](https://github.com/rjwignar/pokecopilot/assets/78163326/8a646a84-50dc-4e02-979d-fa71b30104ea)
 
 # Pokécopilot
 
