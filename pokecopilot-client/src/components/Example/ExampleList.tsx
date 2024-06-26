@@ -3,9 +3,9 @@ import { Example } from "./Example";
 import styles from "./Example.module.css";
 
 const DEFAULT_EXAMPLES: string[] = [
-  "What was the price of the product with sku `FR-R92B-58`?",
-  "What is the SKU of HL Road Frame - Black?",
-  "What is HL Road Frame?",
+  "What pokemon has the highest base stat total?",
+  "What steel-type moves can Scizor learn?",
+  "What damaging moves increase the stats of the user?",
 ];
 
 const GPT4V_EXAMPLES: string[] = [
