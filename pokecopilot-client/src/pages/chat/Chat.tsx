@@ -6,7 +6,7 @@ import {
   TextField,
   SpinButton,
 } from "@fluentui/react";
-import pokecopilot from "../../../public/favicon.png";
+import pokecopilot from "../../assets/favicon.png";
 import { SparkleFilled } from "@fluentui/react-icons";
 import readNDJSONStream from "ndjson-readablestream";
 

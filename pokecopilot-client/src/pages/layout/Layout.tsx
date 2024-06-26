@@ -1,7 +1,7 @@
 import { Outlet, NavLink, Link } from "react-router-dom";
 
 import github from "../../assets/github.svg";
-import pokecopilot from "../../../public/favicon.png";
+import pokecopilot from "../../assets/favicon.png";
 import styles from "./Layout.module.css";
 
 const Layout = () => {
