@@ -3,7 +3,11 @@ import ReactDOM from "react-dom/client";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import { initializeIcons } from "@fluentui/react";
 import { MsalProvider } from "@azure/msal-react";
-import { PublicClientApplication, EventType, AccountInfo } from "@azure/msal-browser";
+import {
+  PublicClientApplication,
+  EventType,
+  AccountInfo,
+} from "@azure/msal-browser";
 
 import "./index.css";
 
@@ -17,24 +21,24 @@ layout = <Layout />;
 initializeIcons();
 
 const router = createHashRouter([
-    {
-        path: "/",
-        element: layout,
-        children: [
-            {
-                index: true,
-                element: <Chat />
-            },
-            {
-                path: "*",
-                lazy: () => import("./pages/NoPage")
-            }
-        ]
-    }
+  {
+    path: "/",
+    element: layout,
+    children: [
+      {
+        index: true,
+        element: <Chat />,
+      },
+      {
+        path: "*",
+        lazy: () => import("./pages/NoPage"),
+      },
+    ],
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-    <React.StrictMode>
-        <RouterProvider router={router} />
-    </React.StrictMode>
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>,
 );
