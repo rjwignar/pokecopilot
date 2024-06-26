@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "vite",
     "build": "./build.sh",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
     "@azure/msal-browser": "^3.1.0",
