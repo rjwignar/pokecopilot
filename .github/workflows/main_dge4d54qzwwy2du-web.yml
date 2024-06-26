@@ -24,6 +24,9 @@ jobs:
         with:
           node-version: '20.x'
 
+      - name: Change permissions for build.sh
+        run: chmod +x pokecopilot-client/build.sh
+
       - name: npm install, build, and test
         run: |
           cd pokecopilot-client
