@@ -6,7 +6,7 @@ interface PokemonCardProps {
 
 const PokemonListCard: React.FC<PokemonCardProps> = ({ pokemon }) => {
   return (
-    <div className="bg-gray-800 p-4 mb-4 rounded-lg">
+    <div className="bg-gray-800 p-2 mb-4 rounded-lg">
       <div className="flex items-start">
         <img
           src={pokemon.official_art}
@@ -29,16 +29,26 @@ const PokemonListCard: React.FC<PokemonCardProps> = ({ pokemon }) => {
                 {ability.name} {ability.is_hidden && "(Hidden)"}
               </span>
             ))}
-            {pokemon.stats.map((stat) => (
-              <div key={stat.name}>
-                {stat.name}: {stat.value}
-              </div>
-            ))}
-          </div>
-          <div className="flex gap-2 mb-2">
-              <div>Height: {pokemon.height}</div>
-              <div>Weight: {pokemon.weight}</div>
-              <div>Base Stat Total: {pokemon.base_stat_total}</div>
+            <div className="flex gap-4">
+              {pokemon.stats.map((stat) => (
+                <div key={stat.name} className="text-center">
+                  <div className="font-semibold">{stat.name}</div>
+                  <div>{stat.value}</div>
+                </div>
+              ))}
+            </div>
+            <div className="text-center">
+              <div className="font-semibold">Total</div>
+              <div>{pokemon.base_stat_total}</div>
+            </div>
+            <div className="text-center">
+              <div className="font-semibold">Height</div>
+              <div>{pokemon.height}</div>
+            </div>
+            <div className="text-center">
+              <div className="font-semibold">Weight</div>
+              <div>{pokemon.weight}</div>
+            </div>
           </div>
         </div>
       </div>
