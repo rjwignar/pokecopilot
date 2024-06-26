@@ -1,3 +1,5 @@
+![favicon](https://github.com/rjwignar/pokecopilot/assets/78163326/14087f32-6a03-4732-a988-10560b6e10e0)
+
 # Pokécopilot
 
 Pokécopilot is an AI-augmented static website designed to assist competitive 
