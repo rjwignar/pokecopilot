@@ -32,14 +32,14 @@ const PokemonListCard: React.FC<PokemonCardProps> = ({ pokemon }) => {
           </div>
         ))}
       </div>
-      <div className="pokemon-moves">
+      {/* <div className="pokemon-moves">
         <h3>Moves:</h3>
         <ul>
           {pokemon.moves.map((move) => (
             <li key={move}>{move}</li>
           ))}
         </ul>
-      </div>
+      </div> */}
       <div className="pokemon-info">
         <div>Height: {pokemon.height}</div>
         <div>Weight: {pokemon.weight}</div>
