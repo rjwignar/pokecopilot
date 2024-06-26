@@ -1,11 +1,7 @@
 import { useState, useEffect } from "react";
+import PokemonListCard from "./PokemonListCard";
+import { Pokemon } from "../models/Pokemon";
 
-interface Pokemon {
-    _id: number;
-    name: string;
-    description: string;
-  }
-  
 function PokemonList() {
   const [pokemonArray, setPokemonArray] = useState([]);
 
@@ -16,13 +12,21 @@ function PokemonList() {
   }, []);
 
   return (
+    // <div>
+    //   <h1>Pokémon List</h1>
+    //   <ul>
+    //     {pokemonArray.map((pokemon: Pokemon) => (
+    //       <li key={pokemon._id}>{pokemon.name}</li>
+    //     ))}
+    //   </ul>
+    // </div>
     <div>
-      <h1>Pokémon List</h1>
-      <ul>
-        {pokemonArray.map((pokemon: Pokemon) => (
-          <li key={pokemon._id}>{pokemon.name}</li>
+      <h1>Pokemon</h1>
+      <div className="pokemon-list">
+        {pokemonArray.map((pokemon : Pokemon) => (
+          <PokemonListCard key={pokemon._id} pokemon={pokemon} />
         ))}
-      </ul>
+      </div>
     </div>
   );
 }
