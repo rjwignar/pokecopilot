@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Pokemon } from "../models/Pokemon";
 
 interface PokemonCardProps {
@@ -14,7 +15,9 @@ const PokemonListCard: React.FC<PokemonCardProps> = ({ pokemon }) => {
           className="w-36 h-36 mr-4"
         />
         <div className="flex flex-col">
-          <h2 className="text-2xl font-bold mb-2">{pokemon.name}</h2>
+          <Link to={`/pokemon/${pokemon._id}`}>
+            <h2 className="text-2xl font-bold mb-2">{pokemon.name}</h2>
+          </Link>
           <div className="flex gap-2 mb-2">
             {pokemon.types.map((type) => (
               <span key={type.name} className="px-2 py-1 rounded bg-gray-600">

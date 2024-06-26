@@ -1,10 +1,17 @@
-import './App.css'
-import PokemonList from './pokemon/PokemonList.tsx';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import './App.css';
+import PokemonList from './pokemon/PokemonList';
+import PokemonDetails from './pokemon/PokemonDetails.tsx';
+
 function App() {
-  // const [count, setCount] = useState(0)
   return (
-    <PokemonList></PokemonList>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<PokemonList />} />
+        <Route path="/pokemon/:id" element={<PokemonDetails />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
