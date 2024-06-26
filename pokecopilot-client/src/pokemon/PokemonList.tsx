@@ -6,7 +6,7 @@ function PokemonList() {
   const [pokemonArray, setPokemonArray] = useState([]);
 
   useEffect(() => {
-    fetch(`${import.meta.env.VITE_POKECOPILOT_API_ENDPINT}/api/pokemon`)
+    fetch(`${import.meta.env.VITE_POKECOPILOT_API_ENDPOINT}/api/pokemon`)
       .then((response) => response.json())
       .then((data) => setPokemonArray(data));
   }, []);
