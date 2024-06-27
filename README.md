@@ -8,6 +8,7 @@ Pokémon players by providing relevant Pokémon data. Whether you're a seasoned
 veteran returning after a break or a newcomer looking to understand the 
 competitive scene, Pokécopilot aims to help you catch up and devise new 
 strategies or movesets.
+![pokecopilotDemo](https://github.com/rjwignar/pokecopilot/assets/78163326/9e621654-13b9-435a-8261-d35f912e965e)
 
 ## Inspiration
 
