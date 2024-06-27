@@ -28,6 +28,8 @@ jobs:
         run: chmod +x pokecopilot-client/build.sh
 
       - name: npm install, build, and test
+        env:
+          APPSETTING_API_ENDPOINT: ${{ secrets.APPSETTING_API_ENDPOINT }}
         run: |
           cd pokecopilot-client
           npm install
